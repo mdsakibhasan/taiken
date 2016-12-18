@@ -1,0 +1,39 @@
+/* jCarousel Styles */
+/*if you're not using the carousel you can delete everything below this */
+.jcarousel-skin-pika{ background-color:#101010; }
+.jcarousel-skin-pika .jcarousel-container-horizontal { padding: 0; margin: 0 30px; overflow:hidden;}
+.jcarousel-skin-pika .jcarousel-clip-horizontal {height: 56px; width: 815px;}
+.jcarousel-skin-pika .jcarousel-item-horizontal { margin-right: 2px;}
+.jcarousel-container{height: 56px;}
+
+/* Just for the example. Fee free to delete these three lines */
+body{font-family:Helvetica, sans-serif;}
+a{color:white;}
+.pikachoose {width: 880px; margin: 0 auto;position:relative;}
+
+/* Style the thumbnails */
+.pika-thumbs{ padding: 0 16px;}
+.pika-thumbs li{ width: 259px; height:50px;  overflow: hidden; float: left; list-style-type: none;padding: 3px; margin: 0 5px; cursor: pointer;}
+.pika-thumbs li:last {margin: 0;}
+.pika-thumbs li .clip {position:relative;height:100%;text-align: center; vertical-align: center; overflow: hidden;}
+	
+/* The stage is the wrapper. The image fills 100% the height of the stage */
+.pika-stage, .pika-textnav {width: 880px;}
+.pika-stage {position: relative; padding: 10px 0 0px 0;text-align:center; height:390px !important;}
+.pika-stage img {height:380px !important;width: 880px !important;display:block;}
+.pika-stage .caption {position: absolute; background: #000; background: rgba(0,0,0,0.75);  border: 1px solid #141414; font-size: 11px; color: #fafafa; padding: 10px; text-align: right; bottom: 50px; right: 10px;}
+.pika-stage .caption p {padding: 0; margin: 0; line-height: 14px;}
+.pika-stage a {display:block;}
+
+/* Ths play, pause, prev and next buttons */
+.pika-imgnav {display:none;}
+
+/* The previous and next textual buttons */
+.pika-textnav {margin: 0;bottom:-68px; left:0px;position:absolute;height: 50px;}
+.pika-textnav a {font-size: 12px; text-decoration: none; color: #333; padding: 4px; width: 21px; height: 21px; cursor:pointer }
+.pika-textnav a.previous {position:absolute;left:0px; margin-left:7px; display: block;background: url('../images/index/slider_previous.png') left top no-repeat}
+.pika-textnav a.next {position:absolute;right:0px; display: block;background: url('../images/index/slider_next.png') left top no-repeat}
+
+/*for the tool tips*/
+.pika-tooltip{font-size:12px;position:absolute;color:white;padding:3px; background-color: rgba(0,0,0,0.7);border:3px solid black;}
+.pika-counter{position: absolute;bottom: 45px;left:15px;color:white;background:rgba(0,0,0,0.7);font-size:11px;padding:3px;-moz-border-radius: 5px;border-radius:5px;}

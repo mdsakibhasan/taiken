@@ -1,0 +1,1003 @@
+/* FUKUOKA 体験バス */
+
+*{margin:0px; padding:0px; font-size:100%; list-style:none; zoom:1;}
+
+html {width:100%; height:100%;}
+body {height:100%; font-size:12px; line-height:1.4; text-align:center; background:#ffffff url('../images/bg_body.jpg') repeat-x 0px 0px; font-family:'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','Meiryo UI','MS UI Gothic','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;}
+
+img, a img {border:none;}
+
+a {text-decoration:none;}
+a:link {color:#009fdb;}
+a:visited {color:#009fdb;}
+a:hover {color:#dd0000; text-decoration:underline;}
+
+div#container {position:relative; width:940px; min-height:100%; margin:0px auto; color:#000000; background:transparent url('../images/bg_container.png') repeat-y 0px 0px; overflow:hidden;}
+*:first-child+html div#container {min-height:auto;}
+
+#wrapper {width:880px; margin:0px 30px; padding:0px 0px 100px; text-align:left; overflow:hidden; z-index:20;}
+
+
+#intro {position:relative; width:880px; height:185px; margin:0px; background:transparent url('../images/bg_color.png') no-repeat 0px 0px; overflow:hidden;}
+#intro h1.logo,
+#intro div.logo {position:absolute; top:15px; left:10px; width:355px; height:160px; background:transparent url('../images/img_logo.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+/*#intro p {position:absolute; top:65px; right:45px; width:440px; height:70px; background:transparent url('../images/bg_read.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}*/
+#toiawase{position:absolute;right:0;top:20px;}
+#catch{position:absolute;right:140px;top:90px;}
+
+
+
+/***
+** global navigation **
+***/
+
+
+#navi {width:880px; height:40px; overflow:hidden;z-index:1}
+#navi ul {width:880px; height:40px; overflow:hidden;background: url(../images/index/nav_sprite.png) no-repeat 0px 0px}
+#navi ul:after {
+content:".";
+display:block;
+clear:both;
+visibility: hidden;
+height:0;
+}
+#navi ul li {height:40px; overflow:hidden; float:left;z-index:10}
+#navi ul li a {height:40px;display:block;zoom:1;overflow:hidden; text-indent:-2000px;z-index:20}
+#navi ul li.top {
+width: 111px;
+}
+#navi ul li.buy {
+width: 160px;
+}
+#navi ul li.flow {
+width: 192px;
+}
+#navi ul li.program {
+width: 221px;
+}
+#navi ul li.map {
+196px;
+}
+#navi ul li.top a {width:110px;margin-right:1px; background:transparent url('../images/index/nav_sprite.png') no-repeat 0px 0px}
+#navi ul li.top a:hover{background-position:0 -80px;}
+#navi ul li.top a.tabActive{background-position:0 -40px;}
+#navi ul li.buy a {width:159px;margin-right:1px; background:transparent url('../images/index/nav_sprite.png') no-repeat -111px 0px}
+#navi ul li.buy a:hover{background-position:-111px -80px;}
+#navi ul li.buy a.tabActive{background-position:-111px -40px;}
+#navi ul li.flow a {width:191px;margin-right:1px; background:transparent url('../images/index/nav_sprite.png') no-repeat -271px 0px}
+#navi ul li.flow a:hover{background-position:-271px -80px;}
+#navi ul li.flow a.tabActive{background-position:-271px -40px;}
+#navi ul li.program a {width:220px;margin-right:1px; background:transparent url('../images/index/nav_sprite.png') no-repeat -463px 0px}
+#navi ul li.program a:hover{background-position:-463px -80px;}
+#navi ul li.program a.tabActive{background-position:-463px -40px;}
+#navi ul li.map a {width:196px; background:transparent url('../images/index/nav_sprite.png') no-repeat -684px 0px}
+#navi ul li.map a:hover{background-position:-684px -80px;}
+#navi ul li.map a.tabActive{background-position:-684px -40px;}
+
+#ending {clear:both; position:absolute; bottom:0px; left:0px; width:940px; height:100px; margin:0px 0px 0px; text-align:left; background:#ffffff url('../images/bg_ending.png') no-repeat 0px 0px; overflow:hidden;}
+* html #ending {position:relative;}
+*:first-child+html #ending {position:relative;}
+
+#ending p {margin:13px 35px; font-size:8pt;}
+#ending address {overflow:hidden; float:right; text-indent:-2000px;}
+
+
+#side {width:220px; margin:20px 0px 30px; border-bottom:solid 5px #000000; background:transparent url('../images/bg_side.png') repeat 100% 0px; overflow:hidden; float:left;}
+#side h2 {width:220px; height:30px; background:transparent url('../images/ttl_pickup.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+#side div.sideIn {width:219px; margin:0px 1px 0px 0px; background:#ffffff; overflow:hidden;}
+
+#side ul {overflow:hidden;}
+
+#side ul li {position:relative; width:160px; padding:10px 14px 10px 45px; overflow:visible; zoom:1;}
+
+* html #side ul {margin:4px 0px 0px;}
+* html #side ul li {margin:-4px 0px 0px;}
+*:first-child+html #side ul {margin:4px 0px 0px;}
+*:first-child+html #side ul li {margin:-4px 0px 0px;}
+
+#side ul li span.shop {display:block; width:160px; margin:0px 0px 5px; font-size:10px;overflow:hidden;}
+#side ul li div.photo {width:160px; height:120px; text-align:center; background:transparent url('../images/program/bg_sphoto.png') no-repeat 0px 0px;overflow:hidden;}
+#side ul li div.photo img {width:160px; vertical-align:bottom;}
+#side ul li h3 {width:160px; margin:5px 0px; font-size:13px; line-height:1.2;overflow:hidden;}
+#side ul li h3 span {display:block; width:160px; margin:0px 0px 3px; font-size:10px; font-weight:normal;}
+#side ul li h3 a span {width:160px; margin:3px 0px 0px; font-weight:bold; line-height:1.4;}
+#side ul li p {width:160px; margin:0px 0px 5px;overflow:hidden;}
+#side ul li img.line {position:absolute; bottom:-4px; right:0px;}
+
+/*5500*/
+#side ul li.gourmet {background:transparent url('../images/bg_cat_gourmet.png') no-repeat 0px center;}
+#side ul li.nakasu {background:transparent url('../images/bg_cat_nakasu.png') no-repeat 0px center;}
+#side ul li.beauty {background:transparent url('../images/bg_cat_beauty.png') no-repeat 0px center;}
+#side ul li.omoshiro {background:transparent url('../images/bg_cat_omoshiro.png') no-repeat 0px center;}
+#side ul li.made {background:transparent url('../images/bg_cat_made.png') no-repeat 0px center;}
+#side ul li.onsen {background:transparent url('../images/bg_cat_onsen.png') no-repeat 0px center;}
+#side ul li.bangai {background:transparent url('../images/bg_cat_bangai.png') no-repeat 0px center;}
+#side ul li.stamp {background:transparent url('../images/bg_cat_stamp.html') no-repeat 0px center;}
+
+/*2500*/
+#side ul li.gourmet {background:transparent url('../images/side_cat_01.png') no-repeat 0px center;}
+#side ul li.onsenbeauty {background:transparent url('../images/side_cat_02.png') no-repeat 0px center;}
+#side ul li.omosirotaiken {background:transparent url('../images/side_cat_03.png') no-repeat 0px center;}
+#side ul li.ichimai {background:transparent url('../images/side_cat_04.png') no-repeat 0px center;}
+#side ul li.dazaifu {background:transparent url('../images/side_cat_05.png') no-repeat 0px center;}
+
+
+
+
+#contents {width:650px; margin:20px 0px 30px; text-align:center; float:right; overflow:hidden;}
+
+div.index {overflow:hidden;}
+div.index img {display:block; margin:0px 0px 20px; vertical-align:bottom;}
+div.index ul.link {width:590px; margin:0px auto;}
+div.index ul.link li {display:inline; width:255px; margin:0px 20px; float:left;}
+div.index ul.link li a {display:block; width:255px; height:130px; overflow:hidden; text-indent:-2000px;}
+div.index ul.link li.program a {background:transparent url('../images/index/btn_program.png') no-repeat 0px 0px;}
+div.index ul.link li.ticket a {background:transparent url('../images/index/btn_ticket.png') no-repeat 0px 0px;}
+div.index ul.link li a:hover {background-position:0px -130px;}
+div.index ul.link li.ticket p {}
+
+
+div.map {overflow:hidden;}
+div.map h1 {width:650px; height:50px; margin:0px 0px 20px; background:transparent url('../images/map/ttl_map.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+div.map img {vertical-align:bottom;}
+
+div.map div.busmap {margin:0px 0px 10px; text-align:center; overflow:hidden;}
+div.map div.tenjinmap {margin:0px 0px 5px; text-align:center; overflow:hidden;}
+div.map ul {margin:0px 20px 30px; overflow:hidden;}
+div.map ul li {margin:0px 0px 5px; padding:0px 0px 0px 1em; text-align:left; overflow:hidden; text-indent:-1em;}
+div.map div.pdf {display:inline; margin:0px 10px 30px; font-size:13px; overflow:hidden; float:left;}
+div.map p {display:inline; margin:0px 10px 30px; text-align:right; font-size:13px; overflow:hidden; float:right;}
+
+div#busArea h2 {background-color:#F15A21; width:100%; height:30px; line-height:30px; font-weight:bold; color:white; font-size:14px; margin:0 0 20px 0;}
+div#busArea h3 {text-align:left; margin: 10px 0 10px 0;}
+div#busArea .busTable table {border-left:1px solid #555;border-top:1px solid #555; margin:0 20px 20px 0;}
+div#busArea .busTable table th, div#busArea .busTable table td {border-right:1px solid #555;border-bottom:1px solid #555; padding:5px; text-align:left;}
+div#busArea .busTable table td.dul {border-bottom:1px dashed #555 !important;}
+
+div.flow {overflow:hidden;}
+div.flow h1 {width:650px; height:50px; margin:0px 0px 20px; background:transparent url('../images/flow/ttl_flow.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+div.flow div.image {margin:0px 0px 30px; text-align:center;}
+div.flow div.image img {vertical-align:bottom;}
+div.flow p {font-size:17px; text-align:center;}
+div.flow div.model {width:600px; margin:5px 25px 20px; overflow:hidden;}
+div.flow div.model a {display:block; width:600px; height:60px; background:transparent url('../images/flow/btn_model.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+div.flow div.model a:hover {background-position:0px -60px;}
+div.flow div.att {margin:20px 30px 40px; padding:10px; border:solid 1px #cccccc; text-align:left; background:#f0f0f0;}
+div.flow div.att h3 {margin:0px 0px 10px; padding:5px; color:#ffffff; background:#f00000;}
+div.flow div.att ul {}
+div.flow div.att ul li {margin:0px 10px 15px;}
+div.flow div.att ul li h4 {margin:0px 0px 5px; font-size:13px; text-align:left;}
+div.flow div.att ul li p {padding:0px 0px 0px 1em; font-size:12px; text-align:left; text-indent:-1em;}
+
+div.model {overflow:hidden;}
+div.model h1 {width:650px; height:50px; margin:0px 0px 20px; background:transparent url('../images/model/ttl_model.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+div.model h2 {width:650px; height:65px; margin:0px 0px 20px; overflow:hidden; text-indent:-2000px;}
+div.model h2.model1 {background:transparent url('../images/model/sttl_model1.png') no-repeat 0px 0px;}
+
+div.model div.image {margin:0px 0px 30px; text-align:center;}
+div.model div.image img {vertical-align:bottom;}
+
+div.buy {overflow:hidden;}
+div.buy h1 {width:650px; height:50px; margin:0px 0px 20px; background:transparent url('../images/buy/ttl_buy.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+div.buy h2 {height:40px; overflow:hidden; text-indent:-2000px;}
+div.buy p {height:50px; overflow:hidden; text-indent:-2000px;}
+div.buy div.site {width:630px; margin:0px 10px 50px;}
+div.buy div.site h2 {background:transparent url('../images/buy/sttl_site.png') no-repeat 0px 0px;}
+div.buy div.site p.step1 {background:transparent url('../images/buy/text_site1.png') no-repeat 0px 0px;}
+div.buy div.site p.step2 {background:transparent url('../images/buy/text_site2.png') no-repeat 0px 0px;}
+div.buy div.site div.ticket {width:600px; margin:5px 15px 0px; overflow:hidden;}
+div.buy div.site div.ticket a {display:block; width:600px; height:130px;  overflow:hidden;}
+div.buy div.site div.ticket a:hover {background-position:0px -100px;}
+div.buy div.site p.att {margin:5px 15px 20px; text-indent:0px;}
+div.buy div.station {width:630px; margin:0px 10px 30px;}
+div.buy div.station h2 {background:transparent url('../images/buy/sttl_station.png') no-repeat 0px 0px;}
+div.buy div.station p {background:transparent url('../images/buy/text_station.png') no-repeat 0px 0px;}
+div.buy table {width:610px; margin:0px 10px 0px; background:#221e1f;}
+div.buy table th {padding:5px 10px; color:#ffffff; text-align:center; font-size:15px; background:#666666;}
+div.buy table td {padding:5px 10px; font-size:13px; text-align:left; background:#ffffff;}
+
+div.stamp {overflow:hidden;}
+div.stamp h1 {width:650px; height:260px; margin:0px 0px 20px; background:transparent url('../images/stamp/ttl_stamp.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+
+div.stamp div.ttl {width:650px; height:50px; margin:0px; background:transparent url('../images/stamp/sttl_stamp.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+
+div.stamp div.spot {width:630px; margin:0px 10px 30px; overflow:hidden;}
+div.stamp div.art {width:630px; margin:0px 10px 30px; overflow:hidden;}
+div.stamp div.sweets {width:630px; margin:0px 10px 30px; overflow:hidden;}
+div.stamp div.ticket {width:650px; margin:0px 0px 30px; overflow:hidden;}
+
+div.stamp div.spot h1 {width:630px; height:100px; margin:0px; background:transparent url('../images/stamp/ttl_spot.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+div.stamp div.art h1 {width:630px; height:100px; margin:0px; background:transparent url('../images/stamp/ttl_art.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+div.stamp div.sweets h1 {width:630px; height:100px; margin:0px; background:transparent url('../images/stamp/ttl_sweets.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+div.stamp div.ticket h1 {width:650px; height:164px; margin:0px; background:transparent url('../images/stamp/ttl_ticket.jpg') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+
+div.stamp ul.banner {width:630px; height:120px; margin:0px 10px 20px; overflow:hidden;}
+div.stamp ul.banner li {width:100px; height:120px; margin:0px 15px 0px 0px; overflow:hidden; float:left;}
+div.stamp ul.banner li a {display:block; width:100px; height:120px; overflow:hidden; text-indent:-2000px;}
+div.stamp ul.banner li.spot {}
+div.stamp ul.banner li.spot a {background:transparent url('../images/stamp/btn_spot.png') no-repeat 0px 0px;}
+div.stamp ul.banner li.art {}
+div.stamp ul.banner li.art a {background:transparent url('../images/stamp/btn_art.png') no-repeat 0px 0px;}
+div.stamp ul.banner li.sweets {}
+div.stamp ul.banner li.sweets a {background:transparent url('../images/stamp/btn_sweets.png') no-repeat 0px 0px;}
+div.stamp ul.banner li.ticket {width:285px; margin:0px;}
+div.stamp ul.banner li.ticket a {width:285px; background:transparent url('../images/stamp/btn_ticket.png') no-repeat 0px 0px;}
+div.stamp ul.banner li a:hover {background-position:0px -120px;}
+
+div.stamp ul.stampNavi {width:650px; height:26px; margin:0px 0px 10px; border-bottom:solid 1px #924799; overflow:hidden;}
+div.stamp ul.stampNavi li {height:26px; margin:0px; overflow:hidden; float:right;}
+div.stamp ul.stampNavi li a {display:block; height:26px; overflow:hidden; text-indent:-2000px;}
+div.stamp ul.stampNavi li.stamp {width:132px;}
+div.stamp ul.stampNavi li.stamp a {width:132px; background:transparent url('../images/stamp/sbtn_stamp.png') no-repeat 0px 0px;}
+div.stamp ul.stampNavi li.spot {width:102px;}
+div.stamp ul.stampNavi li.spot a {width:102px; background:transparent url('../images/stamp/sbtn_spot.png') no-repeat 0px 0px;}
+div.stamp ul.stampNavi li.art {width:92px;}
+div.stamp ul.stampNavi li.art a {width:92px; background:transparent url('../images/stamp/sbtn_art.png') no-repeat 0px 0px;}
+div.stamp ul.stampNavi li.sweets {width:77px;}
+div.stamp ul.stampNavi li.sweets a {width:77px; background:transparent url('../images/stamp/sbtn_sweets.png') no-repeat 0px 0px;}
+div.stamp ul.stampNavi li.ticket {width:119px; margin:0px;}
+div.stamp ul.stampNavi li.ticket a {width:119px; background:transparent url('../images/stamp/sbtn_ticket.png') no-repeat 0px 0px;}
+div.stamp ul.stampNavi li a:hover {background-position:0px -26px;}
+
+div.stamp div.step {margin:0px 0px 10px; text-align:center; overflow:hidden;}
+div.stamp div.present {margin:0px 0px 30px; padding:10px 0px 0px; text-align:center; overflow:hidden;}
+
+div.stamp div.image {margin:0px; text-align:center; overflow:hidden;}
+
+
+div.privacy {text-align:left; overflow:hidden;}
+div.privacy h1 {width:650px; height:50px; margin:0px 0px 20px; background:transparent url('../images/privacy/ttl_privacy.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+div.privacy h2 {font-size:18px; margin:10px 10px; overflow:hidden;}
+div.privacy div.line {margin:0px 10px; border-bottom:solid 1px #cccccc; overflow:hidden;}
+div.privacy p {font-size:14px; margin:0px 10px 20px; overflow:hidden;}
+div.privacy ul {font-size:13px; margin:0px 10px 20px; overflow:hidden;}
+div.privacy ul li {margin:0px 10px 10px; padding:0px 0px 0px 1em; text-indent:-1em; overflow:hidden;}
+
+
+
+div.contact {text-align:left; overflow:hidden;}
+div.contact h1 {width:650px; height:50px; margin:0px 0px 30px; background:transparent url('../images/contact/ttl_contact.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+div.contact div.line {margin:0px 30px 30px; padding:30px; border:solid 1px #cccccc; background:#fff6f6; overflow:hidden;}
+div.contact h2 {font-size:18px; margin:0px 0px 10px; padding:0px 5px 5px; border-bottom:solid 1px #ccaaaa; overflow:hidden;}
+div.contact p {margin:0px 5px; font-size:15px;}
+
+
+
+
+
+#program {margin:20px auto; overflow:hidden;}
+
+#program div.selecterBtns {background:#f5f3e9; overflow:hidden;}
+#program div.selecterBtns h2 {display:inline; width:100px; margin:0px 15px 0px 0px; overflow:hidden; float:left; text-indent:-2000px;}
+
+#program div.selecterBtns ul {display:inline; width:760px; margin:0px; overflow:hidden; float:left;}
+#program div.selecterBtns ul li {display:inline; overflow:hidden; float:left;}
+#program div.selecterBtns ul li a {display:block; overflow:hidden; text-indent:-2000px;}
+
+#program div.ttl {height:30px; background:#221e1f;}
+#program div.ttl h1 {display:inline; width:195px; height:30px; margin:0px 15px 0px 0px; background:#221e1f url('../images/program/ttl_program.png') no-repeat 0px 0px; overflow:hidden; float:left; text-indent:-2000px;}
+#program div.ttl a {width:100px; height:22px; margin:4px 0px 0px 0px; background:#221e1f url('../images/program/btn_all.png') no-repeat 0px 0px; overflow:hidden; float:left; text-indent:-2000px;}
+#program div.ttl a:hover {background-position:-100px 0px;}
+#program div.ttl a.active {background-position:-200px 0px;}
+#program div.ttl span.zoukan a{width:100px; height:22px; margin:4px 0px 0px 10px; background:#221e1f url('../images/btn_zoukan.png') no-repeat 0px 0px; overflow:hidden; float:left; text-indent:-2000px;}
+#program div.ttl span.zoukan a:hover {background-position:-100px 0px;}
+#program div.ttl span.zoukan a.active {background-position:-200px 0px;}
+
+/*プログラムチケット枚数一覧*/
+#program div.ticket {clear:both; padding:10px 0px; background:#f5f3e9 url('../images/line_2dot.png') repeat-x 0px 100%; overflow:hidden;}
+#program div.ticket h2 {height:33px; background:#f5f3e9 url('../images/program/sttl_ticket.png') no-repeat 0px 0px;}
+#program div.ticket ul {height:33px;}
+#program div.ticket ul li {width:78px; height:33px; margin:0px 5px 0px 0px;}
+#program div.ticket ul li a {width:78px; height:33px;}
+#program div.ticket ul li.btnTk1 {background:transparent url('../images/program/btn_1ticket.png') no-repeat 0px -33px;}
+#program div.ticket ul li.btnTk1 a {background:transparent url('../images/program/btn_1ticket.png') no-repeat 0px 0px;}
+#program div.ticket ul li.btnTk1 a.active {background:transparent url('../images/program/btn_1ticket.png') no-repeat 0px -66px;}
+#program div.ticket ul li.btnTk2 {background:transparent url('../images/program/btn_2ticket.png') no-repeat 0px -33px;}
+#program div.ticket ul li.btnTk2 a {background:transparent url('../images/program/btn_2ticket.png') no-repeat 0px 0px;}
+#program div.ticket ul li.btnTk2 a.active {background:transparent url('../images/program/btn_2ticket.png') no-repeat 0px -66px;}
+#program div.ticket ul li.btnTk3 {background:transparent url('../images/btn_3ticket.png') no-repeat 0px -33px;}
+#program div.ticket ul li.btnTk3 a {background:transparent url('../images/btn_3ticket.png') no-repeat 0px 0px;}
+#program div.ticket ul li.btnTk3 a.active {background:transparent url('../images/btn_3ticket.png') no-repeat 0px -66px;}
+#program div.ticket ul li.btnTk4 {background:transparent url('../images/program/btn_4ticket.png') no-repeat 0px -33px;}
+#program div.ticket ul li.btnTk4 a {background:transparent url('../images/program/btn_4ticket.png') no-repeat 0px 0px;}
+#program div.ticket ul li.btnTk4 a.active {background:transparent url('../images/program/btn_4ticket.png') no-repeat 0px -66px;}
+#program div.ticket ul li a:hover {background-image:none;}
+#program div.ticket ul li.text {width:300px; height:20px; margin:9px 0px 0px 10px;}
+
+
+/*プログラムカテゴリー一覧 5500*/
+#program div.category {clear:both; padding:10px 0px; background:#f5f3e9 url('../images/line_2dot.png') repeat-x 0px 100%; overflow:hidden;}
+#program div.category h2 {height:37px; background:#f5f3e9 url('../images/program/sttl_category.png') no-repeat 0px 0px;}
+#program div.category ul {height:37px;}
+#program div.category ul li {height:37px; margin:0px;}
+#program div.category ul li a {height:37px;}
+#program div.category ul li.btnGourmet {width:95px; background:transparent url('../images/program/btn_gourmet.png') no-repeat 0px -37px;}
+#program div.category ul li.btnGourmet a {width:95px; background:transparent url('../images/program/btn_gourmet.png') no-repeat 0px 0px;}
+#program div.category ul li.btnGourmet a.active {width:95px; background:transparent url('../images/program/btn_gourmet.png') no-repeat 0px -74px;}
+#program div.category ul li.btnBeauty {width:125px; background:transparent url('../images/program/btn_beauty.png') no-repeat 0px -37px;}
+#program div.category ul li.btnBeauty a {width:125px; background:transparent url('../images/program/btn_beauty.png') no-repeat 0px 0px;}
+#program div.category ul li.btnBeauty a.active {width:125px; background:transparent url('../images/program/btn_beauty.png') no-repeat 0px -74px;}
+#program div.category ul li.btnOmoshiro {width:105px; background:transparent url('../images/program/btn_omoshiro.png') no-repeat 0px -37px;}
+#program div.category ul li.btnOmoshiro a {width:105px; background:transparent url('../images/program/btn_omoshiro.png') no-repeat 0px 0px;}
+#program div.category ul li.btnOmoshiro a.active {width:105px; background:transparent url('../images/program/btn_omoshiro.png') no-repeat 0px -74px;}
+#program div.category ul li.btnMade {width:145px; background:transparent url('../images/program/btn_made.png') no-repeat 0px -37px;}
+#program div.category ul li.btnMade a {width:145px; background:transparent url('../images/program/btn_made.png') no-repeat 0px 0px;}
+#program div.category ul li.btnMade a.active {width:145px; background:transparent url('../images/program/btn_made.png') no-repeat 0px -74px;}
+#program div.category ul li.btnNakasu {width:90px; background:transparent url('../images/program/btn_nakasu.png') no-repeat 0px -37px;}
+#program div.category ul li.btnNakasu a {width:90px; background:transparent url('../images/program/btn_nakasu.png') no-repeat 0px 0px;}
+#program div.category ul li.btnNakasu a.active {width:90px; background:transparent url('../images/program/btn_nakasu.png') no-repeat 0px -74px;}
+#program div.category ul li.btnOnsen {width:90px; background:transparent url('../images/program/btn_onsen.png') no-repeat 0px -37px;}
+#program div.category ul li.btnOnsen a {width:90px; background:transparent url('../images/program/btn_onsen.png') no-repeat 0px 0px;}
+#program div.category ul li.btnOnsen a.active {width:90px; background:transparent url('../images/program/btn_onsen.png') no-repeat 0px -74px;}
+#program div.category ul li.btnBangai {width:105px; background:transparent url('../images/program/btn_bangai.png') no-repeat 0px -37px;}
+#program div.category ul li.btnBangai a {width:105px; background:transparent url('../images/program/btn_bangai.png') no-repeat 0px 0px;}
+#program div.category ul li.btnBangai a.active {width:105px; background:transparent url('../images/program/btn_bangai.png') no-repeat 0px -74px;}
+#program div.category ul li a:hover {background-image:none;}
+
+/*プログラムカテゴリー一覧 2500*/
+#program div.category {clear:both; padding:10px 0px; background:#f5f3e9 url('../images/line_2dot.png') repeat-x 0px 100%; overflow:hidden;}
+#program div.category h2 {height:37px; background:#f5f3e9 url('../images/program/sttl_category.png') no-repeat 0px 0px;}
+#program div.category ul.ticket-2500 {height:37px;}
+#program div.category ul.ticket-2500 li {height:37px; margin:0px;}
+#program div.category ul.ticket-2500 li a {height:37px;}
+#program div.category ul.ticket-2500 li.btnGourmet {width:112px; background:transparent url('../images/program/btn_cat_01_ov.jpg') no-repeat 0px 0px;}
+#program div.category ul.ticket-2500 li.btnGourmet a {width:112px; background:transparent url('../images/program/btn_cat_01.jpg') no-repeat 0px 0px;}
+#program div.category ul.ticket-2500 li.btnGourmet a.active {width:112px; background:transparent url('../images/program/btn_cat_01_ov.jpg') no-repeat 0px 0px;}
+#program div.category ul.ticket-2500 li.btnOnsenbeauty {width:184px; background:transparent url('../images/program/btn_cat_02_ov.jpg') no-repeat 0px 0px;}
+#program div.category ul.ticket-2500 li.btnOnsenbeauty a {width:184px; background:transparent url('../images/program/btn_cat_02.jpg') no-repeat 0px 0px;}
+#program div.category ul.ticket-2500 li.btnOnsenbeauty a.active {width:184px; background:transparent url('../images/program/btn_cat_02_ov.jpg') no-repeat 0px 0px;}
+#program div.category ul.ticket-2500 li.btnOmosirotaiken {width:162px; background:transparent url('../images/program/btn_cat_03_ov.jpg') no-repeat 0px 0px;}
+#program div.category ul.ticket-2500 li.btnOmosirotaiken a {width:162px; background:transparent url('../images/program/btn_cat_03.jpg') no-repeat 0px 0px;}
+#program div.category ul.ticket-2500 li.btnOmosirotaiken a.active {width:162px; background:transparent url('../images/program/btn_cat_03_ov.jpg') no-repeat 0px 0px;}
+#program div.category ul.ticket-2500 li.btnIchimai {width:151px; background:transparent url('../images/program/btn_cat_04_ov.jpg') no-repeat 0px 0px;}
+#program div.category ul.ticket-2500 li.btnIchimai a {width:151px; background:transparent url('../images/program/btn_cat_04.jpg') no-repeat 0px 0px;}
+#program div.category ul.ticket-2500 li.btnIchimai a.active {width:151px; background:transparent url('../images/program/btn_cat_04_ov.jpg') no-repeat 0px 0px;}
+#program div.category ul.ticket-2500 li.btnDazaifu {width:146px; background:transparent url('../images/program/btn_cat_05_ov.png') no-repeat 0px 0px;}
+#program div.category ul.ticket-2500 li.btnDazaifu a {width:146px; background:transparent url('../images/program/btn_cat_05.png') no-repeat 0px 0px;}
+#program div.category ul.ticket-2500 li.btnDazaifu a.active {width:146px; background:transparent url('../images/program/btn_cat_05_ov.png') no-repeat 0px 0px;}
+#program div.category ul.ticket-2500 li a:hover {background-image:none;}
+
+
+/*プログラムコンテンツ一覧*/
+#program div.selecterContent {width:880px; margin:0px; overflow:hidden;}
+#program div.selecterContent ul {width:880px; margin:20px 0px; overflow:hidden;}
+#program div.selecterContent ul li {position:relative; display:none; margin:0px 4px 10px; cursor:pointer;  float:left; overflow:hidden;border: 1px solid #d9d7c8;}
+#program div.selecterContent ul li.c_name {clear:both;width: 880px;border:none;padding-top: 0px;}
+#program div.selecterContent ul li a {display:block;width:425px;height:118px;padding:0px 0 5px 5px;text-decoration:none;color:#333;background:#f5f3e9;}
+#program div.selecterContent ul li a:hover {background:#eae6d0;}
+#program div.selecterContent ul li .photo {display:block; text-align:center; margin-top: 5px;margin-right: 5px;width: 150px;float:left;}
+#program div.selecterContent ul li .photo img {width:150px; height:113px; vertical-align:bottom;margin:-1px;border:1px solid #aaa;}
+#program div.selecterContent ul li .detail {margin:5px 0px;float:left;width: 265px;color:#333;height:113px;position:relative;}
+#program div.selecterContent ul li {font-size:13px; line-height:1.2;}
+#program div.selecterContent ul li .subtitle {font-size: 11px; display:block; margin:0px 0px 3px; font-weight:normal;color:#444;}
+#program div.selecterContent ul li .title {display:block; margin:0px 0px 3px; font-weight:bold;font-size: 14px;color:#111;}
+#program div.selecterContent ul li .title span{display:block; margin:0px 0px 3px; font-weight:normal;font-size:10px;}
+#program div.selecterContent ul li .hostname {display:block;position:absolute;left:0px;bottom:14px; line-height:1; font-weight:bold;font-size: 13px;color:#444;}
+#program div.selecterContent ul li .address {font-size: 10px;color:#444;position:absolute;left:0px;bottom:0px;
+    height: 1em;
+    overflow: hidden;
+    width: 210px;}
+#program div.selecterContent ul li .numTicket {display:block;position:absolute;bottom:0px; right: 5px;padding: 3px 0 5px 0px;color:#555; font-size:10px; text-align:center; line-height:1; font-weight:bold;border-radius: 3px 0 0 0;}
+#program div.selecterContent ul li .numTicket img {width:60px;}
+
+
+
+
+
+
+
+
+
+
+
+
+#detail {width:650px; margin:20px 0px 30px; text-align:left; overflow:hidden; float:right;}
+
+#detail div.category {width:650px; height:50px; margin:0px; overflow:hidden; text-indent:-2000px;}
+
+#detail div.gourmet div.category {background:transparent url('../images/program/ttl_gourmet.png') no-repeat 0px 0px;}
+#detail div.gourmet div.content h2 {color:#c10000;}
+#detail div.nakasu div.category {background:transparent url('../images/program/ttl_nakasu.png') no-repeat 0px 0px;}
+#detail div.nakasu div.content h2 {color:#ef6b82;}
+#detail div.beauty div.category {background:transparent url('../images/program/ttl_beauty.png') no-repeat 0px 0px;}
+#detail div.beauty div.content h2 {color:#f2ae27;}
+#detail div.omoshiro div.category {background:transparent url('../images/program/ttl_omoshiro.png') no-repeat 0px 0px;}
+#detail div.omoshiro div.content h2 {color:#62b55c;}
+#detail div.made div.category {background:transparent url('../images/program/ttl_made.png') no-repeat 0px 0px;}
+#detail div.made div.content h2 {color:#248100;}
+#detail div.onsen div.category {background:transparent url('../images/program/ttl_onsen.png') no-repeat 0px 0px;}
+#detail div.onsen div.content h2 {color:#0095d1;}
+#detail div.bangai div.category {background:transparent url('../images/program/ttl_bangai.png') no-repeat 0px 0px;}
+#detail div.bangai div.content h2 {color:#004f9f;}
+#detail div.stamp div.category {background:transparent url('../images/program/ttl_stamp.html') no-repeat 0px 0px;}
+#detail div.stamp div.content h2 {color:#7a478b;}
+
+
+/*2500*/
+#detail div.gourmet div.category {background:transparent url('../images/program/ttl_cat_01_s.png') no-repeat 0px 0px;}
+#detail div.gourmet div.content h2 {color:#c20000;}
+#detail div.omosirotaiken div.category {background:transparent url('../images/program/ttl_cat_03_s.png') no-repeat 0px 0px;}
+#detail div.omosirotaiken div.content h2 {color:#f3b743;}
+#detail div.ichimai div.category {background:transparent url('../images/program/ttl_cat_04_s.png') no-repeat 0px 0px;}
+#detail div.ichimai div.content h2 {color:#7fb864;}
+#detail div.onsenbeauty div.category {background:transparent url('../images/program/ttl_cat_02_s.png') no-repeat 0px 0px;}
+#detail div.onsenbeauty div.content h2 {color:#e07788;}
+#detail div.dazaifu div.category {background:transparent url('../images/program/ttl_cat_05_s.png') no-repeat 0px 0px;}
+#detail div.dazaifu div.content h2 {color:#1e5fa8;}
+
+
+#detail div.title {position:relative; margin:0px 0px 2px; height: 90px;padding:25px 15px; background:#f5f3e9 url('../images/line_2dot.png') repeat-x 0px 100%; overflow:hidden;}
+#detail div.title h1 {margin:0px 70px 3px 0px; font-size:16px; overflow:hidden;}
+#detail div.title h1 span {display:block; margin:0px 0px 3px; font-size:13px;}
+#detail div.title h2.course {padding:0px 0px 0px 45px; font-weight:normal; font-size:13px; background:transparent url('../images/program/icon_course.png') no-repeat 0px 2px; overflow:hidden;}
+
+#detail div.title div.ticket {position:absolute; top:4px; right:5px; width:97px; text-align:center;}
+#detail div.title div.ticket h2 {width:77px; height:20px; margin:0px 10px; background:transparent url('../images/program/ssttl_ticket.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+#detail div.title div.ticket img {width:77px; height:32px; vertical-align:bottom;}
+#detail div.title div.ticket p {font-size:8px; margin:0px;}
+
+#detail p.zoom {padding:2px 5px 2px 16px; font-size:10px; background:transparent url('../images/program/icon_zoom.png') no-repeat 0px 2px; overflow:hidden; float:right;}
+
+#detail div.content {clear:both; margin:0px 5px 20px; overflow:hidden;}
+#detail div.content h2 {margin:5px 10px 5px; font-size:15px;}
+
+#detail div.content div.photoM {display:inline; width:350px; height:275px; margin:0px 0px 10px; text-align:center; background:transparent url('../images/program/bg_photo.png') no-repeat 0px 0px; overflow:hidden; float:left;}
+#detail div.content div.photoM img {display:block; width:320px; height:240px; margin:14px auto 0px;}
+
+#detail div.content div.text {display:inline; width:275px; font-size:13px; line-height:1.8; text-align:center; float:right;}
+#detail div.content div.text p {margin:0px 0px 15px; text-align:left;}
+#detail div.content div.text p span {color:#dd0000;}
+#detail div.content div.text a.btn {display:block; width:258px; height:43px; margin:0px auto 10px; text-align:left; background:transparent url('../images/program/btn_reserve.jpg') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+#detail div.content div.text a.btn:hover {background-position:0px -43px;}
+
+#detail div.content div.text div.tel {width:246px; height:86px; margin:0px auto 10px; background:transparent url('../images/program/bg_tel.jpg') no-repeat 0px 0px; overflow:hidden;}
+#detail div.content div.text div.tel span {display:block; height:47px; font-size:1px; text-align:left; text-indent:-2000px;}
+#detail div.content div.text div.tel strong {display:block; font-size:26px; line-height:1; color:#ffffff;
+    height: 1em;
+    overflow: hidden;}
+
+#detail div.content div.simg {clear:both; display:inline; width:160px; margin:0px 0px 40px 10px; float:left;}
+#detail div.content div.simg div.photoS {width:160px; height:120px; margin:0px 0px 10px; background:transparent url('../images/program/bg_sphoto.png') no-repeat 0px 0px; overflow:hidden;}
+#detail div.content div.simg div.photoS img {}
+
+
+#detail div.content div.data {width:455px; margin:0px 0px 40px; background:#ece9d7; overflow:hidden; float:right;}
+#detail div.content div.data ul {margin:15px 15px 10px;}
+#detail div.content div.data ul li {margin:0px 0px 10px; padding:0px 0px 0px 30px; text-indent:-30px;}
+#detail div.content div.data ul li img {margin:0px 10px 0px 0px; vertical-align:-5px;}
+
+#detail div.content div.data ul li.bus {margin:0px 0px 10px; padding:0px; text-indent:0px;}
+#detail div.content div.data ul li.bus table {}
+#detail div.content div.data ul li.bus table th {padding:0px 10px 0px 0px; white-space:nowrap; text-align:left; vertical-align:top; font-weight:normal;}
+#detail div.content div.data ul li.bus table td {text-align:left; vertical-align:top;}
+
+
+#detail div.content div.map {width:435px; height:302px; margin:10px; overflow:hidden; background:#ffffff; float:right;}
+#detail div.content div.map div#map_canvas {width:433px; height:300px; margin:1px; overflow:hidden;}
+
+
+
+#form {margin:20px 80px; overflow:hidden;}
+
+#form div.title {position:relative; margin:0px 0px 20px; background:#f5f3e9 url('../images/line_2dot.png') repeat-x 0px 100%; overflow:hidden;}
+#form div.title div.program {height:30px; background:#221e1f; overflow:hidden;}
+#form div.title div.program span.category {display:inline; height:30px; padding:4px 10px; color:#ffffff; font-size:15px; font-weight:bold; overflow:hidden; float:left;}
+#form div.title div.program span.ttl {display:inline; width:190px; height:30px; margin:0px; background:#221e1f url('../images/form/ttl_reserve.png') no-repeat 0px 0px; overflow:hidden; float:left; text-indent:-2000px;}
+
+#form div.title div.program span.gourmet {background-color:#c20000;}
+#form div.title div.program span.nakasu {background-color:#ef6b82;}
+#form div.title div.program span.beauty {background-color:#f2ae27;}
+#form div.title div.program span.omoshiro {background-color:#62b55c;}
+#form div.title div.program span.made {background-color:#248100;}
+#form div.title div.program span.onsen {background-color:#0095d1;}
+#form div.title div.program span.bangai {background-color:#004f9f;}
+
+
+#form div.title h1 {clear:both; margin:10px 15px 10px; font-size:16px; overflow:hidden;}
+#form div.title h1 span {display:block; margin:0px 0px 3px; font-size:13px;}
+
+#form p {margin:0px 40px 5px; }
+
+#form table td select,
+#form table td input {padding:3px;}
+#form table td.wS input {width:50px;}
+#form table td.wM input {width:130px;}
+#form table td.wL input {width:220px;}
+
+#form table.calendar {margin:0px auto 20px; background:#cccccc;}
+#form table.calendar th {width:80px; padding:5px 5px; font-weight:normal; text-align:center; font-size:15px; background:#f5f3e9;}
+#form table.calendar th.month {}
+#form table.calendar th.prev {text-align:left;}
+#form table.calendar th.next {text-align:right;}
+#form table.calendar th.sun {color:#dd0000;}
+#form table.calendar th.sat {color:#0066ff;}
+#form table.calendar td {width:80px; cursor:pointer; font-size:15px; background:#ffffff;}
+#form table.calendar td.nc {cursor:default; background:#f0f0f0;}
+#form table.calendar td.none {cursor:default; background:#f0f0f0;}
+#form table.calendar td strong {font-size:100%; color:#000000;}
+#form table.calendar td div.day_listing {width:25px; padding:2px 0px; border-right:solid 1px #e0e0e0; border-bottom:solid 1px #e0e0e0; text-align:center; background:#f5f3e9; float:left;}
+#form table.calendar td div.sat {background:#e0f0ff;}
+#form table.calendar td div.sun {background:#ffe9e9;}
+#form table.calendar td div.off {background:#f0f0f0;}
+#form table.calendar td div.today {}
+#form table.calendar td div.t_stock {clear:both; padding:10px 5px; text-align:center; white-space:nowrap; font-size:13px;}
+#form table.calendar td.nc div.day_listing {background:#fafafa;}
+
+
+#form div.login {width:700px; margin:0px 10px 30px;}
+#form div.login p {padding:20px 0px 20px; text-align:center;}
+#form div.login h2 {height:30px; background:#221e1f; overflow:hidden; text-indent:-2000px;}
+#form div.login div.inLogin {position:relative; width:340px; height:200px; margin:0px 0px 20px; background:#f5f3e9 url('../images/line_2dot.png') repeat-x 0px 100%; overflow:hidden; float:left;}
+#form div.login div.inLogin h2 {margin:0px 0px 20px; background:#221e1f url('../images/form/sttl_inlogin.png') no-repeat 0px 0px;}
+#form div.login div.inLogin div.text {height:40px; margin:0px 20px 0px; overflow:hidden;}
+#form div.login div.inLogin div.text span {width:80px; margin:2px 0px 0px; overflow:hidden; float:left;}
+#form div.login div.inLogin div.text input {width:200px; margin:0px 10px 0px 0px; padding:3px; overflow:hidden; float:right;}
+#form div.login div.inLogin div.text p {width:200px; margin:0px 10px 0px 0px; padding:0px; text-align:left; color:#dd0000; overflow:hidden; float:right;}
+#form div.login div.inLogin input.btnCheck {position:absolute; bottom:10px; left:66px; width:208px; height:43px; margin:0px auto 10px; text-align:left; background:transparent url('../images/form/btn_check.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+#form div.login div.noLogin {position:relative; width:340px; height:200px; margin:0px 0px 20px; background:#f5f3e9 url('../images/line_2dot.png') repeat-x 0px 100%; overflow:hidden; float:right;}
+#form div.login div.noLogin h2 {background:#221e1f url('../images/form/sttl_nologin.png') no-repeat 0px 0px;}
+#form div.login div.notLogin {position:relative; width:700px; height:50px; margin:0px 0px 10px; background:#f5f3e9 url('../images/line_2dot.png') repeat-x 0px 100%; overflow:hidden; float:left;}
+#form div.login div.btnInput {position:absolute; width:208px; height:43px; overflow:hidden;}
+#form div.login div.btnInput input {display:block; width:208px; height:43px; text-align:left; background:transparent url('../images/form/btn_input.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+#form div.login div.inLogin div.btnInput {bottom:18px; left:66px;}
+#form div.login div.noLogin div.btnInput {top:90px; left:66px;}
+#form div.login div.notLogin div.btnInput {top:0px; left:250px;}
+#form div.login div.btnBack {width:108px; height:43px; margin:20px auto 30px; overflow:hidden;}
+#form div.login div.btnBack input {display:block; width:108px; height:43px; text-align:left; background:transparent url('../images/form/btn_back.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+
+
+#form div.detail {margin:0px auto 30px; border-top:solid 1px #d9d7c8; border-bottom:solid 1px #d9d7c8; overflow:hidden;}
+#form div.detail table {width:720px; margin:0px; background:#cccccc;}
+#form div.detail table td {padding:15px 15px; font-weight:normal; text-align:center; font-size:13px; background:#f5f3e9;}
+#form div.detail table td strong {font-size:17px; color:#dd0000;}
+
+#form div.data {}
+#form div.data h2 {width:650px; height:30px; margin:0px auto; background:#221e1f url('../images/form/sttl_data.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+#form div.data table {width:650px; margin:0px auto 20px; background:#cccccc;}
+#form div.data table td {padding:15px 15px; font-weight:normal; text-align:center; font-size:13px; background:#f5f3e9;}
+#form div.data table td strong {font-size:17px; color:#0066ff;}
+#form div.data table p {margin:5px 0px; color:#dd0000;}
+
+#form div.user {margin:0px auto 20px;}
+#form div.user h2 {width:650px; height:30px; margin:0px auto; background:#221e1f url('../images/form/sttl_user.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+#form div.user table {width:650px; margin:0px auto 20px; background:#cccccc;}
+#form div.user table th {width:120px; padding:8px 15px; font-weight:normal; text-align:left; font-size:13px; background:#f5f3e9;}
+#form div.user table td {padding:8px 15px; font-size:13px; background:#ffffff;}
+#form div.user table td.address {padding:0px;}
+#form div.user table td table {width:480px; margin:4px 0px; background:#ffffff;}
+#form div.user table td table th {width:100px; padding:4px 15px; vertical-align:top; background:#ffffff;}
+#form div.user table td table td {padding:4px 15px; background:#ffffff;}
+#form div.user table p {margin:5px 0px; color:#dd0000;}
+
+
+#form div.ticket {margin:0px auto 30px; overflow:hidden;}
+#form div.ticket h2 {width:650px; height:30px; margin:10px auto 0px; background:#221e1f url('../images/form/sttl_ticket.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+#form div.ticket table {width:650px; margin:0px auto 20px; background:#cccccc;}
+#form div.ticket table th {width:120px; padding:8px 15px; font-weight:normal; text-align:left; font-size:13px; background:#f5f3e9;}
+#form div.ticket table td {width:500px; padding:8px 15px; font-size:13px; background:#ffffff;}
+#form div.ticket table td input {width:220px;}
+#form div.ticket table p {margin:5px 0px; color:#dd0000;}
+
+
+#form table.btn {margin:0px auto 30px; background:transparent;}
+#form table.btn td {} {padding:0px;}
+#form table.btn div.btnTicket {width:208px; height:43px; margin:0px 20px; overflow:hidden;}
+#form table.btn div.btnTicket input {display:block; width:208px; height:43px; text-align:left; background:transparent url('../images/form/btn_ticket.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+#form table.btn div.btnCheck {width:208px; height:43px; margin:0px 20px; overflow:hidden;}
+#form table.btn div.btnCheck input {display:block; width:208px; height:43px; text-align:left; background:transparent url('../images/form/btn_check.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+#form table.btn div.btnReserve {width:208px; height:43px; margin:0px 20px; overflow:hidden;}
+#form table.btn div.btnReserve input {display:block; width:208px; height:43px; text-align:left; background:transparent url('../images/form/btn_reserve.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+#form table.btn div.btnBack {width:108px; height:43px; margin:0px 20px; overflow:hidden;}
+#form table.btn div.btnBack input {display:block; width:108px; height:43px; text-align:left; background:transparent url('../images/form/btn_back.png') no-repeat 0px 0px; overflow:hidden; text-indent:-2000px;}
+
+/***
+** toppage **
+**/
+#topContainer{overflow:hidden; margin-top:10px;margin-bottom:20px;}
+#topMaincol{float:left;width:580px;}
+#topMaincol h2{position:relative; height:30px; line-height:30px;marginp:0 5px 0 0;padding-left:10px; font-size:120%; color:#ffffff;background-color:#000000;font-weight:bold;}
+#topMaincol span{ display:inline; display:inline-block; zoom:1; text-align:right;height:30px; line-height:30px; position:absolute; right:5px;font-size:80%; padding-left:20px; background:url('../images/index/icon_arrow_01.png') left 45% no-repeat;/margin-top:-5px;}
+#topRecommend{margin-bottom:10px; padding-bottom:10px;background-color:#ffefdf;}
+#topRecommend h3{font-size:140%;margin-top:2px;line-height:1.1em}
+#topRecommend li{ overflow:hidden; margin-bottom:5px; padding:5px 0 5px 5px}
+#topRecommend .rcmTxt{width:405px;float:right; margin-left:10px;padding-top:30px;}
+#topRecommend .rcmTxt b{font-size:140%;line-height:1.1em}
+#topRecommend .rcmPic{float:left;}
+#topSubcol{float:right;width:280px;}
+
+/* おすすめプログラム */
+#topRecommend li.gourmet .rcmTxt{background:url('../images/index/mds_catbar_01.png') left top no-repeat;}
+#topRecommend li.gourmet .rcmTxt b{color:#c20000}
+#topRecommend li.nakasu .rcmTxt{background:url('../images/index/mds_catbar_02.png') left top no-repeat;}
+#topRecommend li.nakasu .rcmTxt b{color:#ef6b82}
+#topRecommend li.beauty .rcmTxt{background:url('../images/index/mds_catbar_03.png') left top no-repeat;}
+#topRecommend li.beauty .rcmTxt b{color:#f2ae27}
+#topRecommend li.omoshiro .rcmTxt, #topRecommend li.omosirotaiken .rcmTxt {background:url('../images/index/mds_catbar_04.png') left top no-repeat;}
+#topRecommend li.omoshiro .rcmTxt b, #topRecommend li.omosirotaiken .rcmTxt b {color:#62b55c}
+#topRecommend li.made .rcmTxt{background:url('../images/index/mds_catbar_05.png') left top no-repeat;}
+#topRecommend li.made .rcmTxt b{color:#248100}
+#topRecommend li.onsen .rcmTxt{background:url('../images/index/mds_catbar_06.png') left top no-repeat;}
+#topRecommend li.onsen .rcmTxt b{color:#0095d1}
+#topRecommend li.bangai .rcmTxt{background:url('../images/index/mds_catbar_07.png') left top no-repeat;}
+#topRecommend li.bangai .rcmTxt b{color:#c20000}
+#topRecommend li.ichimai .rcmTxt{background:url('../images/index/mds_catbar_08.png') left top no-repeat;}
+#topRecommend li.ichimai .rcmTxt b{color:#c20000}
+#topRecommend li.dazaifu .rcmTxt{background:url('../images/index/mds_catbar_09.png') left top no-repeat;}
+#topRecommend li.dazaifu .rcmTxt b{color:#c20000}
+#topRecommend li.onsenbeauty .rcmTxt{background:url('../images/index/mds_catbar_10.png') left top no-repeat;}
+#topRecommend li.onsenbeauty .rcmTxt b{color:#f2ae27}
+
+
+
+/**
+** detailpage **
+**/
+
+#detailContainer{margin-top:20px; margin-bottom:10px; overflow:hidden; background:url('../images/detail/bg_detailContainer.png') left top repeat-y;}
+#detailContainer.detail_fix { background:none;}
+
+/* maincol */
+
+#detailContainer #maincol{width:590px; float:left;}
+#detailContainer.detail_fix #maincol{width:880px; float:left;}
+#detailContainer #programList{margin-top:10px; background-color:#f5f3e9;}
+#detailContainer #programList h3{height:35px; padding-left:15px; line-height:35px; font-size:16px; color:#fff; background-color:#000;
+}
+#detailContainer #programList ol li{padding:20px; border-bottom:1px dotted gray;
+}
+#detailContainer #programList ol li.programInfo_lastli{border-bottom:none;}
+#detailContainer.detail_fix #programList ol li{overflow:hidden;
+}
+.labelPoint{display:inline; display:inline-block; zoom:1; height:20px; margin-bottom:5px; line-height:20px; padding:0 5px; font-size:10px; background-color:#cb3301; color:#fff;}
+.programInfo01{overflow:hidden; margin-bottom:10px;
+}
+.programPhoto01{float:right; border:3px solid #fff;
+}
+#detailContainer.detail_fix .programPhoto01{ margin:13px 10px 23px 10px;
+}
+.programCatch{width:335px; float:left;
+}
+.programCatch h4{height:45px;min-height:45px;padding:3px 0 3px 55px; margin-bottom:10px; font-size:16px; line-height:1.4em; background-color:#fff; border-bottom:1px dotted gray;
+}
+.programCatch h4.programInfo_catGourmet{background-image:url('../images/detail/programInfo_icons.png');background-repeat:no-repeat; background-position: left top;}
+.programCatch h4.programInfo_catNakasu{background-image:url('../images/detail/programInfo_icons.png');background-repeat:no-repeat; background-position: left -80px;}
+.programCatch h4.programInfo_catBeauty{background-image:url('../images/detail/programInfo_icons.png');background-repeat:no-repeat; background-position: left -160px;}
+.programCatch h4.programInfo_catOmoshiro{background-image:url('../images/detail/programInfo_icons.png');background-repeat:no-repeat; background-position: left -240px;}
+.programCatch h4.programInfo_catMade{background-image:url('../images/detail/programInfo_icons.png');background-repeat:no-repeat; background-position: left -320px;}
+.programCatch h4.programInfo_catOnsen{background-image:url('../images/detail/programInfo_icons.png');background-repeat:no-repeat; background-position: left -400px;}
+.programCatch h4.programInfo_catBangai{background-image:url('../images/detail/programInfo_icons.png');background-repeat:no-repeat; background-position: left -480px;}
+.programInfo02{padding:6px; background:url('../images/detail/bg_dot_2_2.png') top left;
+}
+.detail_fix .programInfo02{width:573px; float:left;
+}
+.Info02box_inner{padding:10px 15px; background-color:#fff;
+}
+.programInfo02 h5{font-size:16px; margin-bottom:5px; color:#248100;
+}
+.programInfo02 table{width:100%; font-size:10px;
+}
+.programInfo02 table th{width:100px; /width:84px; font-weight:normal; background-color:#ecfbd0; color:#248100;
+}
+.programInfo02 table th,
+.programInfo02 table td{padding:5px 8px; border-bottom:1px dotted gray;
+}
+
+/* subcol */
+
+#detailContainer #subcol{width:250px; /width:250px; padding:10px 15px 10px 20px; float:right;
+}
+#detailContainer #subcol h3{height:40px; line-height:40px; padding-top:12px; background:url('../images/detail/mds_tripRoute.png') left top no-repeat; padding-left:80px; margin-top:10px; margin-bottom:15px; font-size:14px; color:#fff;
+}
+#detailContainer #subcol #tripRout{width:250px; /width:250px;
+}
+#tripRout dl{position:relative;}
+#tripRout dt.time{position:absolute; left:5px; top:15px; color:#fff; font-weight:bold;
+}
+#tripRout dd.nameBusstop{padding-left:30px; font-size:16px; font-weight:bold; line-height:45px; background-color:#fff; border-left:45px solid #8fbf00;
+}
+#tripRout dd.nameBusstop span{width:12px; height:44px; position:absolute; left:55px; top:-10px;	 background:url('../images/detail/img_busstop_s.png') left top no-repeat; text-indent:-9999px;
+}
+#tripRout dl.busMove{width:250px; height:102px;/margin-bottom:-5px; background:url('../images/detail/bg_busMove.png') left top no-repeat; position:relative;
+}
+#tripRout dl.busMove dd{position:absolute; left:85px; top:42px; font-size:10px;
+}
+#tripRout dd.programInfo{/height:45px; min-height:45px;padding-left:55px; background-color:#fff; border-top:1px dotted gray; padding-top:3px; padding-bottom:3px;}
+#tripRout .catGourmet dd.programInfo{background:url('../images/detail/bg_subcolInfo_catGourmet.png') left top repeat-y;
+}
+#tripRout .catNakasu dd.programInfo{background:url('../images/detail/bg_subcolInfo_catNakasu.png') left top repeat-y;
+}
+#tripRout .catBeauty dd.programInfo{background:url('../images/detail/bg_subcolInfo_catBeauty.png') left top repeat-y;
+}
+#tripRout .catOmoshiro dd.programInfo{background:url('../images/detail/bg_subcolInfo_catOmoshiro.png') left top repeat-y;
+}
+#tripRout .catMade dd.programInfo{background:url('../images/detail/bg_subcolInfo_catMade.png') left top repeat-y;
+}
+#tripRout .catOnsen dd.programInfo{background:url('../images/detail/bg_subcolInfo_catOnsen.png') left top repeat-y;
+}
+#tripRout .catBangai dd.programInfo{background:url('../images/detail/bg_subcolInfo_catBangai.png') left top repeat-y;
+}
+#tripRout .catNormal dd.programInfo{background:url('../images/detail/bg_subcolInfo_catNormal.png') left top repeat-y;
+}
+#tripRout .catNight dd.programInfo{border-top:none; background:url('../images/detail/bg_subcolInfo_catNormal.png') left top repeat-y;
+}
+#tripRout dd.programInfo .labelPoint{margin:0 !important; height:15px; line-height:15px; padding:0 10px;
+}
+#tripRout dd.programInfo p span{display:block; font-size:10px;
+}
+#tripRout dt.programCat{top:46px; width:45px; height:45px;min-height:45px; position:absolute; text-indent:-9999px;background-image:url('../images/detail/programInfo_icons.png');background-repeat:no-repeat;}
+#tripRout dt.programCat_pos0{top:0;}
+#tripRout .catGourmet dt.programCat{background-position: -3px 0px}
+#tripRout .catNakasu dt.programCat{background-position: -3px -80px}
+#tripRout .catBeauty dt.programCat{background-position: -3px -160px}
+#tripRout .catOmoshiro dt.programCat{background-position: -3px -240px}
+#tripRout .catMade dt.programCat{background-position: -3px -320px}
+#tripRout .catOnsen dt.programCat{background-position: -3px -400px}
+#tripRout .catBangai dt.programCat{background-position: -3px -480px}
+#tripRout .catNormal dt.programCat{background-position: -3px -560px}
+#tripRout .catNight dt.programCat{top:0px;background-position: -3px -640px}
+#btn_buyTicket01{display:block;width:260px;height:80px;margin-bottom:10px;margin-left:-5px;background:url('../images/detail/detail_btn_01.png') left top;text-indent:-9999px;}
+#btn_buyTicket01:hover{background-position: left -80px}
+#btn_buyTicket02{display:block;width:880px;height:100px;background:url('../images/detail/detail_btn_02.png') left top;text-indent:-9999px;}
+#btn_buyTicket02:hover{background-position: left -100px}
+
+
+
+
+#topMaincol {
+	width: 880px;
+}
+
+.cf:after,
+.cf:before {
+	content: '';
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+.cf {
+	zoom: 1;
+}
+
+#topRecommend {
+	background: #fff;
+	padding-top: 5px;
+}
+
+#topRecommend li {
+	float: left;
+	width: 435px;
+	min-height: 125px;
+	line-height: 1.4;
+}
+
+#topRecommend .rcmTxt {
+	width: 265px;
+	float: left;
+	margin-left: 5px;
+}
+
+#topRecommend h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#footerMenu li {
+	float: left;
+	margin-bottom: 9px;
+}
+#footerMenu li.mr {
+	margin-right: 9px;
+}
+
+#contents,
+#detail {
+	float: left;
+}
+
+#contents.singleColumn {
+	width: 880px;
+}
+
+div.map h1,
+div.buy h1 {
+	width: 880px;
+	background-color: #221E1F;
+	background-position: 50% 0px;
+}
+
+div.buy p {
+	text-align: left;
+}
+
+div.buy div.site {
+	width: 880px;
+	margin: 0 0 50px;
+}
+
+div.buy table {
+	width: 870px;
+}
+
+div.buy table th {
+	padding: 5px 0;
+}
+
+div.buy ul.note {
+	text-align: left;
+	font-size: 14px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+div.buy ul.note li {
+	text-indent: -1em;
+	padding-left: 1em;
+	font-weight: bold;
+	line-height: 1.6;
+}
+
+div.buy div.site div.ticket {
+	width: auto;
+	margin-bottom: 10px;
+}
+
+div.buy div.site div.ticket a {
+	width: auto;
+	height: auto;
+}
+
+div.buy div.site caption {
+	line-height: 40px;
+	padding-left: 10px;
+	font-size: 120%;
+	color: #ffffff;
+	background-color: #000000;
+	font-weight: bold;
+}
+
+div.buy div.site .buyTable {
+	margin-bottom: 20px;
+}
+
+
+div.flow h1 {
+	width: 880px;
+	background-color: #221E1F;
+	background-position: 50% 0px;
+}
+
+#side {
+	float: right;
+}
+
+#side ul li {
+	padding: 10px 45px 10px 14px;
+	background-position: right center !important;
+}
+
+#qanda {
+	text-align: left;
+}
+#qanda h2 {
+	line-height: 30px;
+	margin: 0 0 20px;
+	padding-left: 10px;
+	font-size: 120%;
+	color: #ffffff;
+	background-color: #000000;
+	font-weight: bold;
+
+}
+#qanda .question {
+	font-size: 1.2em;
+	margin-bottom: 15px;
+	padding-left: 45px;
+	background: url(../images/qanda/ico_q.png) 0 0 no-repeat;
+	padding-top: 5px;
+}
+#qanda .answer {
+	margin-bottom: 50px;
+	padding-left: 45px;
+	background: url(../images/qanda/ico_a.png) 0 0 no-repeat;
+	padding-top: 5px;
+}
+
+
+#detail .buyBtn {
+	padding-left: 17px;
+}
+
+#sideBuyBtn {
+	padding-bottom: 10px;
+	background: #fff;
+}
+
+#navi ul li a {
+	margin-right: 0 !important;
+	border-right: 1px dotted #ccc;
+}
+#navi ul li.map {
+	border-right: none;
+	margin-right: -1px;
+}
+
+
+.pageTitle {
+	line-height: 40px;
+	padding-left: 10px;
+	margin-top: 20px;
+	font-size: 120%;
+	color: #ffffff;
+	background-color: #EE7097;
+	font-weight: bold;
+}
+
+.contentsTitle {
+	line-height: 40px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+	font-size: 120%;
+	color: #ffffff;
+	background-color: #000000;
+	font-weight: bold;
+}
+
+
+#headerSns {
+	position: absolute;
+	bottom: 7px;
+	right: 0;
+}
+
+
+
+
+
+
+
+#headerArea {
+	margin:15px 0 20px 0;
+}
+#giftArea p.blockExp {
+	font-size:14px;
+	display:inline-block;
+	margin:0 0 0 8px;
+}
+#giftArea .tableExp {
+	padding:20px;
+	width:130px;
+}
+#giftArea .giftBlock {
+	border-top:3px solid #712893;
+}
+#giftArea .giftBlock h3 {
+	font-size:30px;
+	font-weight:bold;
+	padding:10px 0 10px 0;
+	display:inline-block;
+}
+#giftArea .giftBlock table.blockTable {
+	margin:0 0 20px 0;
+}
+#giftArea .giftBlock table.blockTable th{
+	text-align:left;
+	border-top:1px solid #712893;
+	border-bottom:1px solid #712893;
+	padding:5px;
+}
+#giftArea .giftBlock table.blockTable td{
+	border-bottom:1px solid #712893;
+	padding:5px;
+}
+
+
+#pauseTicket {
+  padding: 20px;
+  border: 3px solid #d91418;
+  text-align: center;
+  color: #d91418;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

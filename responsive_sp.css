@@ -1,0 +1,63 @@
+/*-------------Responsive Navigation-------------*/
+#smartphone_menu_container,#smartphone_menu{ margin: 0px; padding: 0px; }
+#smartphone_menu_container{	display: none; width: 98%; padding: 14px 1% 0%;	min-height: 40px; }
+#logo_and_click_icon{ padding-bottom: 1%; }
+#logo_and_click_icon >img{ height: 40px; width: auto; cursor: pointer; }
+#logo_and_click_icon >a img{ width: auto; height: 40px; }
+#logo_and_click_icon >img{ float: right; }
+#smartphone_menu_container .closed{ display: none; }
+#smartphone_menu_container .opened{ display: block; }
+#smartphone_menu{ list-style: none;	background-color: white; }
+#smartphone_menu li{ margin: 2px 0px; }
+#smartphone_menu li a{ display: block; background-color: black;	padding: 10px; color: white; }
+
+/*When the screen size is <=768px*/
+@media screen and (max-width: 768px) {
+    #smartphone_menu_container{ display: block; }
+
+}
+
+/*When the screen size is <=750px*/
+@media screen and (max-width: 750px) {
+
+}
+
+/*When the screen size is <=720px*/
+@media screen and (max-width: 720px){
+
+}
+	
+/*When the screen size is <=640px*/
+@media screen and (max-width: 640px){
+	
+}
+
+/*When the screen size is <=600px*/
+@media screen and (max-width: 600px) {
+	
+}
+
+/*When the screen size is <=576px*/
+@media screen and (max-width: 576px) {
+	
+}
+
+/*When the screen size is <=540px*/
+@media screen and (max-width: 540px) {
+	
+}
+
+/*When the screen size is <=480px*/
+@media screen and (max-width: 480px) {
+	
+}
+
+/*When the screen size is <=360px*/
+@media screen and (max-width: 360px){
+	
+}
+
+/*When the screen size is <=320px*/
+@media screen and (max-width: 320px) {
+	
+}

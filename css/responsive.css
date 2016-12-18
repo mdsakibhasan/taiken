@@ -1,0 +1,4083 @@
+@media screen and (max-width: 768px) {
+    /* =============================================== (Top Page ) ==============================================*/
+    
+    body {
+        background: none;
+    }
+    body div#smartphone_menu_container a img {
+        float: left;
+    }
+    body #logo_and_click_icon {
+        padding-bottom: 50px;
+    }
+    .myOtona div#container {
+        width: 680px;
+        background: hsl(0, 0%, 100%);
+        margin:0 auto;
+    }
+    .myOtona div #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myOtona #intro {
+        width: 100%;
+        height: auto;        
+    }
+    .myOtona #navi {
+        display: none;
+    }
+    .myOtona .pika-stage img {
+        max-width: 77%;
+    }
+    .myOtona #intro img {
+        max-width: 100%;
+    }
+    .myOtona div #headerSns {
+        position: relative;
+        left: 77%;
+        top:0px;
+    }
+    .myOtona div #topRecommend li,
+    div #footerMenu li {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myOtona #topRecommend .rcmTxt {
+        width: 74%;
+        margin-left: 10px;
+    }
+    .myOtona .pika-textnav a.next {
+        padding: 0;
+        right: 24%;
+    }
+    .myOtona #topMaincol {
+        width: 100%;
+    }
+    .myOtona #footerMenu li a img {
+        width: 100%;
+        padding: 5px 0;
+    }
+    .myOtona div #ending {
+        width: 100%;
+        background: hsl(0, 0%, 100%) url('../images/bg_color.png') no-repeat 0px 0px;
+        background-size: 100% 5%;
+        background-position: 0px 50px;
+    }
+    .myOtona div #ending p {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 8pt;
+    }
+    /* ========================================= Privacy Page ===============================================*/
+    .myprivacy #side{
+    	background: #fff;
+    }
+    .myprivacy #side div.sideIn,
+    .myprivacy #side h2,
+    .myprivacy p#sideBuyBtn a img{
+    	margin:0 35%;
+    }
+    .myprivacy div #headerSns{
+        position: relative;
+        left: 77%;
+        top: 0px;
+    }
+    .myprivacy #contents{
+        width: 100%;
+        margin:0 auto;
+    }
+    .myprivacy #side div.sideIn{
+    	width: 100%;
+    }
+    .myprivacy #side{
+    	width: 100%;
+    	border:none;
+    }
+    .myprivacy div.privacy h1{
+    	width: 100%;
+    	background-size: 100%;
+    }
+    /*====================== Recommend    =============================*/
+    
+    .myRecommend div#container {
+        width: 680px;
+    }
+    .myRecommend div #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myRecommend #intro {
+        width: 100%;
+    }
+    .myRecommend #intro img {
+        max-width: 100%;
+    }
+    .myRecommend div .c-tabs {
+        width: 100%;
+        display: block !important;
+    }
+    .myRecommend div #otona img {
+        width: 100%;
+    }
+    .myRecommend div #joshi img {
+        width: 100%;
+    }
+    /*====================== Beginner   =============================*/
+    
+    .myBegin div#container {
+        width: 680px;
+    }
+    .myBegin div #wrapper,
+    .myBegin div #contents {
+        width: 650px;
+    }
+    .myBegin #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myBegin #intro img {
+        max-width: 100%;
+    }
+    .myBegin div #headerSns{
+    	position: relative;
+    	left: 77%;
+    	top:0px;
+    }
+    .myBegin div #contents.singleColumn img {
+        width: 500px;
+    }
+    .myBegin div #wrapper > img {
+        width: 650px;
+    }
+    .myBegin div.flow div.image img {
+        width: 500px;
+    }
+    .myBegin div.flow h1 {
+        background-position: 0px;
+    }
+    .myBegin div.index ul.link {
+        width: 500px;
+        margin: 0 170px;
+    }
+    
+    /*====================== Omiyage   =============================*/
+    
+    .myOmiyage div#container {
+        width: 680px;
+        margin: 0 auto;
+    }
+    .myOmiyage #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myOmiyage #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myOmiyage #intro img {
+        max-width: 100%;
+    }
+    .myOmiyage div #headerSns {
+        position: relative;
+        left: 77%;
+        top: 0px;
+    }
+    .myOmiyage #headerArea img {
+        max-width: 100%;
+    }
+    /*====================== Plan_Details No: 140  =============================*/
+    
+    .myPlan div#smartphone_menu_container a img {
+        float: left;
+    }
+    .myPlan #logo_and_click_icon {
+        padding-bottom: 50px;
+    }
+    .myPlan div#container {
+        width: 650px;
+        margin: 0 auto;        
+    }
+    .myPlan div #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myPlan div #headerSns {
+        position: relative;
+        top: 0px;
+        left: 76%;
+    }
+    .myPlan div #intro {
+        width: 100%;
+    }
+    .myPlan div #intro img {
+        max-width: 100%;
+    }
+    .myPlan div #side{       
+        width: 100%;
+        float: none;
+        top:-50px;
+        position: relative;
+        background: #fff;
+        border-bottom: none;            
+    }
+    .myPlan #detail div.omosirotaiken div.content h2{
+        text-align: center;
+    }
+    .myPlan #side div.sideIn{
+		width: 100%;
+    }
+    .myPlan #side ul,
+    .myPlan #side h2,
+    .myPlan p#sideBuyBtn img{
+    	margin: 0 32.5%;
+    }
+    .myPlan div .data {
+        max-width: 100%;
+    }
+    .myPlan div #detail {            
+        width: 100%;
+        float: none;        
+    }
+    .myPlan #detail div.ichimai div.content h2{
+        text-align: center;
+    }
+    .myPlan #detail div.content {
+        margin: 0px 100px 20px;
+    }
+    .myPlan #detail div.content div.text {
+       width: 100%;
+    }
+    .myPlan #detail div.content div.text p {        
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    .myPlan #detail .buyBtn {
+       /* padding-left: 9px;*/
+    }
+    .myPlan #detail div.content div.photoM {       
+        margin: 0 11%;
+    }
+    .myPlan #detail div.content div.text div.tel{
+		margin:2% auto;
+    }
+    .myPlan #detail div.content div.simg{
+    	width: 100%;
+    }
+    .myPlan #detail div.content div.simg div.photoS {       
+        width: 100%;
+        margin: 2% auto;
+        text-align: center;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/bg_sphoto.png') no-repeat 50%;
+    }
+    .myPlan #detail div.ichimai div.category {
+       width: 100%;
+       background-size: 100%;
+    }
+    .myPlan #detail div.onsenbeauty div.category {
+        background-size: 600px;
+    }
+    
+    /*===================================================== Detail 01 & 02 ========================================================*/
+    
+    .myDetail div#container{
+        width: 680px;
+        margin: 0 auto;
+    }
+    .myDetail #intro{
+    	width: 100%;
+    	height: auto;
+    }    
+    .myDetail #detailContainer.detail_fix #maincol {
+        width: 100%;
+    }
+    .myDetail div #maincol h2 > img {
+        max-width: 100%;
+    }
+    .myDetail div .programInfo01 img {
+        display: inline-block;
+        margin:2% 32% !important;
+    }
+    .myDetail div .programInfo01{
+    	width: 100%;
+    }
+    .myDetail div .programInfo02 {
+        width: 100% !important;
+        padding:0%;
+    }
+    .myDetail div .programInfo02 img {
+        display: inline-block;
+        margin: 2% 32% !important;
+    }
+    .myDetail div .programCatch {
+        width: 100%;
+    }
+    .myDetail div .programPhoto01 {
+        float: none;
+        margin: 2% 32% !important;
+    }
+    .myDetail #programList h3 {
+        text-align: center;
+    }
+    .myDetail #btn_buyTicket02 {
+        background: url('../images/detail/detail_btn_02.png') no-repeat left top;
+        width: 100%;
+        background-size: 100%;        
+        height: 80px;
+    }
+    .myDetail #wrapper > p {
+        padding: 5px 10px;
+    }
+    .myDetail a#btn_buyTicket02:hover{
+    	background-position: initial;
+    }
+    /*=================================================== Map Page ================================================================*/
+    
+    .mymap div#container {
+        width: 650px;
+        background: #fff;
+    }
+    .mymap div.map {
+        width: 645px;
+    }
+    .mymap #intro {
+        width: 100%;
+        height: auto;
+    }
+    .mymap div #headerSns {
+        position: relative;
+        left: 76%;
+        top: 0px;
+    }
+    .mymap div.map h1 {
+        background-position: 0% 0px;
+    }
+    /*=================================================== Qanda Page ================================================================*/
+    
+    .myqanda div#container{
+		width: 680px
+    }
+    .myqanda #intro {
+        width: 100%;
+        height:auto;
+    }
+    .myqanda div #headerSns{
+        position: relative;
+        left: 77%;
+        top:0px;
+    }
+    .myqanda #intro img {
+        max-width: 100%;
+    }
+    /*=================================================== Enquete Page ================================================================*/
+    
+    .myFAQ div#container {
+        width: 680px;
+    }
+    .myFAQ #wrapper{
+        width: 100%;
+    }
+    .myFAQ #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myFAQ #intro img {
+        max-width: 100%;
+    }
+    .myFAQ div #headerSns {
+        position: relative;
+        left: 77%;
+        top: 0px;
+    }
+    /*=================================================== Inquiry Page ================================================================*/
+    
+    .myQuery div#container{
+        width: 680px;
+    }
+    .myQuery div#wrapper{
+    	width: 100%;
+    	margin:0 auto;
+    }
+    .myQuery #intro {
+    	width: 100%;
+        height: auto;
+    }
+    .myQuery div #headerSns{
+        position: relative;
+        left: 77%;
+        top: 0px;
+    }
+    .myQuery.ss-form-container {
+        padding: 0;
+    }
+    .myQuery div .contact div.line {
+        width: 72%;
+        margin: 0px 8px 15px;
+        padding: 10px 0px;
+    }
+    .myQuery div .contact div.line h2 {
+        text-align: left;
+    }
+    .myQuery div #intro img {
+        max-width: 100%;
+    }
+    /*=================================================== Buy Page ================================================================*/
+    
+    .myBuy div#container{    
+        width: 680px;       
+    }
+    .myBuy div#wrapper{    
+        width: 100%;
+        margin:0 auto;
+    }
+    .myBuy #intro{
+    	width: 100%;
+        height: auto;
+    }
+    .myBuy #intro img {
+        max-width: 100%;
+    }
+    .myBuy div #headerSns {
+        position: relative;
+        left: 77%;
+    }    
+    .myBuy div.buy div.site{
+    	width: 100%;
+    	margin:0 auto;
+    }
+    .myBuy div #contents.singleColumn{
+    	width: 100%;
+    }
+    .myBuy div #contents.singleColumn > div.buy div.site div.ticket a img{
+    	max-width: 100%;
+    }
+    .myBuy div #contents.singleColumn > div.buy div.site div.ticket {
+        
+        margin:0 auto;
+    }
+    .myBuy div #contents.singleColumn > div.buy > h1 {
+        background-position: 0;
+    }
+    .myBuy div.buy div.site caption {
+        padding-left: 240px;
+        text-align: left;
+    }
+    .myBuy div #contents.singleColumn > div.buy div.site .buyTable {
+        overflow-x: scroll;
+    }
+    .myBuy div #contents div.buy div.site table {
+        width: 1000px;
+    }
+    .myBuy div.buy ul.note {
+        text-align: justify;
+    }
+    /* =============================================== Program Page ===============================================*/
+    
+    #program div.selecterBtns ul {
+        width    : 600px;
+        float    : left;
+        display  : inline;
+        overflow : hidden;
+    }
+    .myPlan #program div.category ul.ticket-2500 {
+        float 		: none;
+    }
+    .myPlan div #program div.selecterContent ul .c_name img {
+        max-width : 100%;
+        height    : 50px;
+    }
+    .myPlan #program div.selecterContent{
+    	width: 100%;
+    }
+    .myPlan div #program div.selecterContent ul .tk1,
+    .myPlan div #program div.selecterContent ul .tk2 {
+    	width: 100%;       
+    }
+    .myPlan #program div.selecterContent ul li .numTicket{
+    	right: 25px;
+    }     
+    .myPlan #program div.selecterContent ul li.c_name,
+    .myPlan #program div.selecterContent ul li a{
+    	width: 100%;
+    }
+    #program div.selecterContent ul li.c_name img{
+    	/*max-width: 100%;*/
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnIchimai {        
+        width           : 200px;
+        background-size : 161px;
+        position  		: relative;
+        clear 			: both;
+        left  			: 20%;
+        margin-bottom 	: 5px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnIchimai a {
+        width           : 164px;
+        background      : hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_04.jpg') no-repeat 0px 0px;
+        background-size : 161px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnIchimai a.active {
+        width           : 200px;
+        background      : hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_04_ov.jpg') no-repeat 0px 0px;
+        background-size : 162px;
+    }
+    #program div.category ul.ticket-2500 li.btnOmosirotaiken {        
+        position 		: relative;
+        left 			: 19%;
+		top 			: 21%;		
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnGourmet {
+        width           : 200px;
+        background      : hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_01.jpg') no-repeat 0px 0px;        
+        position        : relative;
+        left 			: 20%;
+        top 			: 35.5%;
+        clear 			: both;
+        margin-bottom 	: 5px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnGourmet a {
+        width           : 200px;
+        background      : hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_01.jpg') no-repeat 0px 0px;
+        background-size : 163px 40px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnGourmet a.active {
+        width           : 200px;
+        background      : hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_01_ov.jpg') no-repeat 0px 0px;
+        background-size : 163px 40px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnOnsenbeauty {
+        width           : 163px;        
+        background      : hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_02_ov.jpg') no-repeat 0px 0px;
+        background-size : 162px;
+        position 		: relative;
+        left 			: 19%;
+
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnDazaifu {        
+        width           : 200px;
+        clear 			: both;
+        position 		: relative;
+        left 			: 35%;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnDazaifu a {
+        width           : 164px;
+        background      : hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_05.png') no-repeat 0px 0px;
+        background-size : 164px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnDazaifu a.active {
+        width           : 164px;
+        background      : hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_05_ov.png') no-repeat 0px 0px;
+        background-size : 164px;
+    }    
+    .mysitemap div #headerSns {
+        position: relative;
+        left: 75%;
+        top: 0px
+    }
+    .mysitemap #contents {
+        width: 100%;
+    }
+    .mysitemap #contents .column {
+        width: 45%;
+    }
+}
+@media screen and (max-width: 667px) {
+    /* =============================================== ( Top Page )===============================================*/
+    
+    body {
+        background: none;
+    }
+    body div#smartphone_menu_container a img {
+        float: left;
+    }
+    body #logo_and_click_icon {
+        padding-bottom: 50px;
+    }
+    .myOtona div#container {
+        width: 650px;
+        background: hsl(0, 0%, 100%);
+        margin: 0 auto;
+    }
+    .myOtona div #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myOtona #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myOtona #navi {
+        display: none;
+    }
+    .myOtona .pika-stage img {
+        max-width: 73%;
+    }
+    .myOtona #intro img {
+        max-width: 100%;
+    }
+    .myOtona div #headerSns {
+        position: relative;
+        left: 74%;
+        top: 0px;
+    }
+    .myOtona div #topRecommend li,
+    div #footerMenu li {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myOtona #topRecommend .rcmTxt {
+        width: 73%;
+        margin-left: 10px;
+    }
+    .myOtona .pika-textnav a.next {
+        padding: 0;
+        left: 70%;
+    }
+    .myOtona #topMaincol {
+        width: 100%;
+    }
+    .myOtona #footerMenu li a img {
+        width: 100%;
+        padding: 5px 0;
+    }
+    .myOtona div #ending {
+        width: 100%;
+        background: hsl(0, 0%, 100%) url('../images/bg_color.png') no-repeat 0px 0px;
+        background-size: 100% 5%;
+        background-position: 0px 50px;
+    }
+    .myOtona div #ending p {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 12pt;
+    }
+    .myOtona div #ending address {
+        margin-top: 20px;
+    }
+    /*========================== Program Page ==========================================*/
+    
+    #program div.selecterBtns ul {
+        width: 600px;
+        float: left;
+        display: inline;
+        overflow: hidden;
+    }
+    .myPlan #program div.category ul.ticket-2500 {
+        float: none;
+    }
+    .myPlan div #program div.selecterContent ul .c_name img {
+        width: 594px;
+        height: 50px;
+    }
+    .myPlan div #program div.selecterContent ul .tk1,
+    .myPlan div #program div.selecterContent ul .tk2 {
+        width: 100%;
+        /*margin-left: 100px;*/
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnIchimai {
+        position: relative;
+        clear: both;
+        left: 20%;
+        width: 200px;
+        background-size: 161px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnIchimai a {
+        width: 164px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_04.jpg') no-repeat 0px 0px;
+        background-size: 161px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnIchimai a.active {
+        width: 200px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_04_ov.jpg') no-repeat 0px 0px;
+        background-size: 162px;
+    }
+    #program div.category ul.ticket-2500 li.btnOmosirotaiken {
+        position : absolute;
+        left     : 50%;
+        top      : 323px;
+        clear    : both;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnGourmet {
+        width: 200px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_01.jpg') no-repeat 0px 0px;
+        
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnGourmet a {
+        width: 200px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_01.jpg') no-repeat 0px 0px;
+        background-size: 163px 40px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnGourmet a.active {
+        width: 200px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_01_ov.jpg') no-repeat 0px 0px;
+        background-size: 163px 40px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnOnsenbeauty {
+        width: 163px;
+        position: relative;
+        left: 16.5%;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_02_ov.jpg') no-repeat 0px 0px;
+        background-size: 162px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnDazaifu {        
+        width: 200px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnDazaifu a {
+        width: 164px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_05.png') no-repeat 0px 0px;
+        background-size: 164px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnDazaifu a.active {
+        width: 164px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_05_ov.png') no-repeat 0px 0px;
+        background-size: 164px;
+    }
+    /*====================== Recommend    =============================*/
+    
+    .myRecommend div#container {
+        width: 650px;
+        margin:0 auto;
+    }
+    .myRecommend div #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myRecommend #intro {
+        width: 100%;
+    }
+    .myRecommend #intro img {
+        max-width: 100%;
+    }
+    .myRecommend div .c-tabs {
+        width: 100%;
+        margin: 0 auto;
+        display: block !important;
+    }
+    .myRecommend div #otona img {
+        width: 100%;
+    }
+    .myRecommend div #joshi img {
+        width: 100%;
+    }
+    /*====================== Beginner   =============================*/
+    
+    .myBegin div#container {
+        width: 650px;
+    }
+    .myBegin div #wrapper,
+    .myBegin div #contents {
+        width: 600px;
+    }
+    .myBegin #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myBegin div #headerSns{
+    	position: relative;
+    	left: 75%;
+    	top:0px;
+    }
+    .myBegin #intro img {
+        max-width: 100%;
+    }
+    .myBegin div #contents.singleColumn img {
+        width: 500px;
+    }
+    .myBegin div #wrapper > img {
+        width: 600px;
+    }
+    .myBegin div.flow div.image img {
+        width: 500px;
+    }
+    .myBegin div.flow h1 {
+        background-position: 0px;
+    }
+    .myBegin div.index ul.link {
+        width: 500px;
+        margin: 0 150px;
+    }
+    /*====================== Omiyage   =============================*/
+    
+    .myOmiyage div#container {
+        width: 650px;
+        margin:0 auto;
+    }
+    .myOmiyage #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myOmiyage #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myOmiyage #intro img {
+        max-width: 100%;
+    }
+    .myOmiyage div #headerSns {
+        position: relative;
+        left: 76%;
+        top: 0px;
+    }
+    .myOmiyage #headerArea img {
+        max-width: 100%;
+    }
+    .myOmiyage #giftArea {
+        width: 100%;
+    }
+    .myOmiyage #giftArea .giftBlock {
+        overflow-x: scroll;
+        width: 100%;
+    }
+    .myOmiyage #giftArea .giftBlock table {
+        width: 1000px;
+    }
+    /*===================================================== Detail 01 & 02 ========================================================*/
+    
+    .myDetail div#container{
+    	width: 600px;
+    	margin: 0 auto;
+    }
+    .myDetail #intro {
+        width: 100%;
+    }
+    .myDetail #detailContainer.detail_fix #maincol {
+        width: 100%;
+    }
+    .myDetail div #maincol h2 > img {
+        max-width: 100%;
+    }   
+    .myDetail #programList h3 {
+        text-align: center;
+    }
+    .myDetail #wrapper > #btn_buyTicket02 {
+    	width: 100%;
+        background-size: 100%;
+        height: 70px;
+    }
+    .myDetail a#btn_buyTicket02:hover{
+    	background-position: initial;
+    }
+    .myDetail #wrapper > p {
+        padding: 5px 10px;
+    }
+    /*====================== Plan_Details No: 140  =============================*/
+    
+    .myPlan div#smartphone_menu_container a img {
+        float: left;
+    }
+    .myPlan #logo_and_click_icon {
+        padding-bottom: 50px;
+    }
+    .myPlan div#container {
+        width: 600px;
+        margin: 0 auto;        
+    }
+    .myPlan div #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .myPlan div #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myPlan div #intro img {
+        max-width: 100%;
+    }
+    .myPlan div #side{       
+        width: 100%;
+        float: none;
+        position: relative;
+        background: #fff;
+        border-bottom: none;        
+    }
+    .myPlan #side div.sideIn{
+		width: 100%;
+    }
+    .myPlan #side ul,
+    .myPlan #side h2,
+    .myPlan p#sideBuyBtn img{
+    	margin: 0 31.5%;
+    }
+    .myPlan div .data {
+        max-width: 100%;
+    }
+    .myPlan div #detail {
+        float: none;        
+        width: 100%;        
+    }
+    .myPlan #detail div.content {
+        margin: 0px 100px 20px;
+    }
+    .myPlan #detail div.content div.text {       
+       width: 100%;
+    }
+    .myPlan #detail div.content div.text p {        
+        width: 100%;
+        text-align: center;
+        padding: 0px !important;
+    }
+    .myPlan #detail .buyBtn {
+       /* padding-left: 9px;*/
+    }
+    .myPlan #detail div.content div.photoM {        
+        margin: 0 11%;
+    }
+    .myPlan #detail div.content div.text div.tel{
+		margin:2% auto;
+    }
+    .myPlan #detail div.content div.simg{
+    	width: 100%;
+    }
+    .myPlan #detail div.content div.simg div.photoS {        
+        width: 100%;
+        margin: 2% auto;
+        text-align: center;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/bg_sphoto.png') no-repeat 50%;
+    }
+    .myPlan #detail div.omosirotaiken div.category{
+        width: 100%;
+        background-size: 100%;
+    }
+    .myPlan #detail div.ichimai div.category {       
+       width: 100%;
+       background-size: 100%;
+    }
+    .myPlan #detail div.title h1 span{
+        font-size: 12px;
+    }
+    .myPlan #detail div.onsenbeauty div.category {
+        background-size: 600px;
+    }
+    /*=================================================== Map Page ========================================*/
+    
+    .mymap div#container {
+        width: 650px;
+    }
+    .mymap #wrapper {
+        width: 630px;
+        margin: 0 auto;
+    }
+    .mymap div.map {
+        width: 630px;
+        margin: 0 auto;
+    }
+    .mymap #intro {
+        width: 100%;
+        height: auto;
+    }
+    .mymap #intro img {
+        max-width: 100%;
+    }
+    .mymap div#headerSns {
+        position: relative;
+        left: 74%;
+        top: 0px;
+    }
+    .mymap div.map h1 {
+        background-position: 0px 3px;
+        background-size: 620px;
+    }
+    .mymap div .busmap img {
+        max-width: 100%;
+    }
+    .mymap #contents.singleColumn {
+        width: 100%;
+        margin: 5px auto;
+    }
+    .mymap div#ending {
+        width: 100%;
+    }
+    /*=================================================== Sitemap Page ================================================================*/
+    
+    .mysitemap div#container {
+        width: 600px;
+        margin: 0 auto;
+    }
+    .mysitemap #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .mysitemap div #headerSns {
+        position: relative;
+        left: 74%;
+        top: 0px
+    }
+    .mysitemap #contents {
+        width: 100%;
+    }
+    .mysitemap #contents .column {
+        width: 250px;
+    }
+    /*============================================  Qanda page ======================================================================*/
+    
+    .myqanda div#container {
+        width: 600px;
+    }
+    .myqanda #wrapper {
+        width: 100%;
+        margin:0 auto;
+    }
+    .myqanda #qanda {
+        width: 100%;
+        text-align: justify;
+    }
+    .myqanda #contents.singleColumn {
+        width: 100%;
+    }    
+    .myqanda #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myqanda div #headerSns {
+        position: relative;
+        left: 74%;
+        top:0px;
+    }
+    .myqanda #intro img {
+        max-width: 100%;
+        
+    }
+    /*=================================================== Privacy Page ================================================================*/
+    .myprivacy div#container{    	
+		width: 600px;
+		margin:0 auto;    	
+    }
+    .myprivacy div#wrapper{
+    	width: 100%;
+    }
+    .myprivacy #intro{
+    	width: 100%;
+    	height: auto;
+    }
+    .myprivacy  div #headerSns{
+    	position: relative;
+        left: 74%;
+        top:0px;
+    }
+    .myprivacy #side{
+    	background: #fff;
+    }
+    .myprivacy #side div.sideIn,
+    .myprivacy #side h2,
+    .myprivacy p#sideBuyBtn a img{
+    	margin:0 31.5%;
+    }
+    .myprivacy #contents{
+        width: 100%;
+        margin:0 auto;
+    }
+    .myprivacy #side div.sideIn{
+    	width: 100%;
+    }
+    .myprivacy #side{
+    	width: 100%;
+    	border:none;
+    }
+    .myprivacy div.privacy h1{
+    	width: 100%;
+    	background-size: 100%;
+    }
+
+    /*=================================================== Enquete Page ================================================================*/
+    
+    .myFAQ div#container {
+        width: 650px;
+    }
+    .myFAQ #wrapper{
+        width: 100%;
+    }
+    .myFAQ #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myFAQ #intro img {
+        width: 100%;
+    }
+    .myFAQ div #headerSns {
+        position: relative;
+        left: 76%;
+        top: 0px;
+    }
+    /*=================================================== Inquiry Page ================================================================*/
+    
+    .myQuery div#container{
+    	width: 650px;
+    	margin:0 auto;
+    }
+    .myQuery div#wrapper{
+		width: 100%;
+		margin:0 auto;
+    }
+    .myQuery #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myQuery div #headerSns{
+        position: relative;
+        left: 76%;
+        top:0px;
+    }
+    .myQuery .ss-form-entry {
+        padding: 10px;
+    }    
+    /*=================================================== Buy Page ================================================================*/
+    
+    .myBuy div#container {
+        width: 650px;        
+    }
+    .myBuy #intro{
+        width: 100%;
+        height: auto;
+    }    
+    .myBuy #wrapper,
+    .myBuy div #contents.singleColumn {
+        width: 100%;
+    }
+    .myBuy #intro img {
+        max-width: 100%;
+    }
+    .myBuy div #headerSns {
+        position: relative;
+        left: 75%;
+        top:0px;
+    }
+    .myBuy div #contents.singleColumn > div.buy div.site div.ticket {
+        width: 99%;
+    }
+    
+    .myBuy div #contents.singleColumn > div.buy > h1 {
+        background-position: 0;
+    }
+    .myBuy div.buy div.site caption {
+        padding-left: 240px;
+        text-align: left;
+    }
+    .myBuy div #contents.singleColumn > div.buy div.site .buyTable {
+        overflow-x: scroll;
+    }
+    .myBuy div #contents div.buy div.site table {
+        width: 1000px;
+    }
+    .myBuy div.buy ul.note {
+        text-align: justify;
+    }
+}
+@media screen and (max-width: 568px) {
+    /* =============================================== ( Top Page )===============================================*/
+    
+    body {
+        background: none;
+    }
+    body div#smartphone_menu_container a img {
+        float: left;
+    }
+    body #logo_and_click_icon {
+        padding-bottom: 50px;
+    }
+    .myOtona div#container {
+        width: 500px;
+        background: hsl(0, 0%, 100%);
+    }
+    .myOtona div #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myOtona #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myOtona #navi {
+        display: none;
+    }
+    .myOtona .pikachoose,
+    .myOtona .pika-stage {
+        width: 100%;
+    }
+    .myOtona .pika-stage img {
+        max-width: 100%;
+    }
+    .myOtona #intro img {
+        max-width: 100%;
+    }
+    .myOtona div #headerSns {
+        position: relative;
+        left: 69%;
+        top: 0px;
+    }
+    .myOtona div #topRecommend li,
+    div #footerMenu li {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myOtona #topRecommend .rcmTxt {
+        width: 65%;
+        margin-left: 10px;
+    }
+    .myOtona .pika-textnav a.next {
+        padding: 0;
+        left: 54%;
+    }
+    .myOtona #topMaincol {
+        width: 100%;
+    }
+    .myOtona #topMaincol h2 {
+        font-size: 109%;
+    }
+    .myOtona #footerMenu li a img {
+        width: 100%;
+        padding: 5px 0;
+    }
+    .myOtona div #ending {
+        width: 100%;
+        background: hsl(0, 0%, 100%) url('../images/bg_color.png') no-repeat 0px 0px;
+        background-size: 100% 5%;
+        background-position: 0px 30px;
+    }
+    .myOtona div #ending p {
+        margin: 0 20%;
+        font-size: 8pt;
+    }
+    /* ========================= Programe Page ==================*/
+    .myPlan #program div.category ul.ticket-2500 li.btnOmosirotaiken{
+    	position: absolute;
+    	left:56.5%;
+    	top:323px;
+    	clear: both;
+
+    }
+    /*====================== Recommend    =============================*/
+    
+    .myRecommend div#container {
+        width: 550px;
+        margin:0 auto;
+    }
+    .myRecommend div #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myRecommend #intro {
+        width: 1005;
+        height: 140px;
+    }
+    .myRecommend #intro img {
+        max-width: 100%;
+    }
+    .myRecommend div#headerSns {
+        right: 200px;
+    }
+    .myRecommend div .c-tabs {
+        width: 500px;
+        display: block !important;
+    }
+    .myRecommend div #otona img,
+    .myRecommend #ending {
+        width: 100%;
+    }
+    .myRecommend div #joshi img,
+    .myRecommend #ending {
+        width: 100%;
+    }
+    /*====================== Beginner   =============================*/
+    
+    .myBegin div#container {
+        width: 550px;
+    }
+    .myBegin div #wrapper,
+    .myBegin div #contents {
+        width: 500px;
+    }
+    .myBegin #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myBegin div #headerSns{
+		position: relative;
+		left: 70%;
+		
+    }
+    .myBegin #intro img {
+        max-width: 100%;
+    }
+    .myBegin div #contents.singleColumn img {
+        width: 500px;
+    }
+    .myBegin div #wrapper > img {
+        width: 500px;
+    }
+    .myBegin div.flow div.image img {
+        width: 500px;
+    }
+    .myBegin div.flow h1 {
+    	background-size: 60%;
+        background-position: 0px;
+    }
+    .myBegin div.index ul.link {
+        width: 500px;
+        margin: 0 100px;
+    }
+    /*====================== Omiyage   =============================*/
+    
+    .myOmiyage div#container {
+        width: 550px;
+        margin:0 auto;
+    }
+    .myOmiyage #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myOmiyage #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myOmiyage #intro img {
+        max-width: 100%;
+    }
+    .myOmiyage div #headerSns {
+        position: relative;
+        left: 70%;
+        top: 0px;
+    }
+    .myOmiyage #headerArea img {
+        max-width: 99%;
+    }
+    .myOmiyage #giftArea {
+        width: 100%;
+    }
+    .myOmiyage #giftArea .giftBlock {
+        overflow-x: scroll;
+        width: 100%;
+    }
+    .myOmiyage #giftArea .giftBlock table {
+        width: 1000px;
+    }
+    
+    /*===================================================== Detail 01 & 02 ========================================================*/
+    
+    .myDetail div#container{
+    	width: 500px;
+    	margin: 0 auto;
+    }
+    .myDetail #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myDetail #detailContainer.detail_fix #maincol {
+        width: 100%;
+    }
+    .myDetail div #maincol h2 > img {
+        max-width: 100%;
+    }
+    .myDetail div .programInfo01 img {
+        display: inline-block;
+       margin:2% 27.5% !important;
+    }
+    .myDetail div .programInfo02 {
+        width: 100%;
+    }
+    .myDetail div .programInfo02 img {
+        display: inline-block;
+        margin-left: 186px !important;
+    }
+    .myDetail div .programCatch {
+       width: 100%;
+    }
+    .myDetail div .programPhoto01 {
+        float: none;
+        margin:2% 27.5% !important;
+    }
+    .myDetail div .Info02box_inner {
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .myDetail div .programInfo02 table {
+        width: 1000px;
+    }
+    .myDetail #programList h3 {
+        text-align: center;
+    }
+    .myDetail #detailContainer #programList ol li {
+        padding: 0px;
+    }
+    .myDetail #btn_buyTicket02 {
+        background: url('../images/detail/detail_btn_02.png') no-repeat left top;
+        background-size: 100%;
+        width: 100%;
+        height: 56px !important;
+    }
+    .myDetail #wrapper > p {
+        padding: 5px 10px;
+    }
+    /*===================================================== Plan 140 ===============================================================*/
+    
+    
+    .myPlan div#smartphone_menu_container a img {
+        float: left;
+    }
+    .myPlan #logo_and_click_icon {
+        padding-bottom: 50px;
+    }
+    .myPlan div#container {
+        width: 500px;
+        margin: 0 auto;
+       /* border: 1px solid #000;*/
+    }
+    .myPlan div #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myPlan div #headerSns {
+        right: 5px;
+    }
+    .myPlan div #intro {
+        width: 100%;
+        height: 140px;
+    }
+    .myPlan div #intro img {
+        max-width: 100%;
+    }
+    .myPlan div #side{
+       /* margin: 0 -400px;
+        float: left;*/
+        width: 100%;
+        float: none;
+        position: relative;
+        top:-50px;
+        background: #fff;
+        border-bottom: none; 
+        margin-top: 40px;       
+    }
+    .myPlan #side div.sideIn{
+		width: 100%;
+    }
+    .myPlan #side ul,
+    .myPlan #side h2,
+    .myPlan p#sideBuyBtn img{
+    	margin: 0 28%;
+    }
+    .myPlan div .data {
+        max-width: 100%;
+    }
+    .myPlan div #detail {
+       float: none;
+        width: 100%;        
+    }
+    .myPlan #detail div.content {
+        margin: 0px 100px 20px;
+    }
+    .myPlan #detail div.content div.text {
+      
+       width: 100%;
+    }
+    .myPlan #detail div.content div.text p {       
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    .myPlan #detail .buyBtn {
+       /* padding-left: 9px;*/
+    }
+    .myPlan #detail div.content div.photoM {        
+        margin: 0 auto;
+        background: none;
+    }
+    .myPlan #detail div.content div.text div.tel{
+		margin:2% auto;
+    }
+    .myPlan #detail div.content div.simg{
+    	width: 100%;
+    }
+    .myPlan #detail div.content div.simg div.photoS {        
+        width: 100%;
+        margin: 2% auto;
+        text-align: center;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/bg_sphoto.png') no-repeat 50%;
+    }
+    .myPlan #detail div.ichimai div.category {
+       width: 100%;
+       background-size: 100%;
+    }
+    .myPlan #detail div.onsenbeauty div.category {
+        background-size: 600px;
+    }
+    /*=================================================== Map Page ========================================*/
+    
+    .mymap div#container {
+        width: 500px;
+    }
+    .mymap #wrapper {
+        width: 500px;
+        margin: 0 auto;
+    }
+    .mymap div.map {
+        width: 500px;
+    }
+    .mymap #intro{
+        width: 100%;
+        height: auto;
+    }
+    .mymap div#headerSns {
+        position: relative;
+        left: 68%;
+        top: 0px;
+    }
+    .mymap div.map h1 {
+        background-position: 30px 12px;
+        background-size: 443px;
+    }
+    .mymap div .busmap img {
+        max-width: 96%;
+    }
+    /*============================================  Sitemap page ======================================================================*/
+    
+    .mysitemap div#container {
+        width: 500px;
+        margin: 0 auto;
+    }
+    .mysitemap #wrapper {
+        width: 100%;
+    }
+    .mysitemap #headerSns {
+        right: 70px;
+    }
+    .mysitemap #intro {
+        width: 100%;
+        height: 157px;
+    }
+    .mysitemap #intro img {
+        max-width: 100%;        
+    }
+    .mysitemap #headerSns {
+        right: 200px;
+        top: 136px;
+    }
+    .mysitemap #contents {
+        width: 500px;
+        margin:0 auto;
+    }
+    .mysitemap #contents h2 {
+        padding-left: 50px;
+    }
+    .mysitemap #contents .column {
+        float: none;
+        width: 197px;
+        margin: 0 40px;
+    }
+    /*============================================  Qanda page ======================================================================*/
+        
+    .myqanda div#container {
+        width: 500px;
+    }
+    .myqanda #wrapper {
+        width: 100%;
+        margin: 0 auto
+    }
+    .myqanda #contents.singleColumn {
+        width: 100%;
+    }
+    .myqanda div #headerSns {
+        position: relative;
+        left: 70%;
+    }
+    .myqanda #intro {
+        width: 100%;
+        height: auto;       
+    }
+    .myqanda #intro img {
+        max-width: 100%;        
+    }
+    .myqanda #qanda {
+        width: 100%;
+        text-align: justify;
+    }
+    .myqanda #qanda .question {
+        width: 90%;
+        background: url(../images/qanda/ico_q.png) 5px 0 no-repeat;
+    }
+    .myqanda #qanda .answer {
+        width: 90%;
+        background: url(../images/qanda/ico_a.png) 5px 0 no-repeat;
+    }
+   
+    /*=================================================== Privacy Page ================================================================*/
+    .myprivacy div#container{    	
+		width: 500px;
+		margin:0 auto;    	
+    }
+    .myprivacy div#wrapper{
+    	width: 100%;
+    }
+    .myprivacy #intro{
+        width: 100%;
+        height: auto;
+    }
+    .myprivacy  div #headerSns{
+        position: relative;
+        left: 66%;
+        top:0px;
+    }
+    .myprivacy #side{
+    	background: #fff;
+    }
+    .myprivacy #side div.sideIn,
+    .myprivacy #side h2,
+    .myprivacy p#sideBuyBtn a img{
+    	margin:0 28%;
+    }
+    .myprivacy #contents{
+        width: 100%;
+        margin:0 auto;
+    }
+    .myprivacy #side div.sideIn{
+    	width: 100%;
+    }
+    .myprivacy #side{
+    	width: 100%;
+    	border:none;
+    }
+    .myprivacy div.privacy h1{
+    	width: 100%;
+    	background-size: 100%;
+    }    
+    /*=================================================== Enquete Page ================================================================*/
+    
+    .myFAQ div#container {
+        width: 550px;
+    }
+    .myFAQ #wrapper,    
+    .myFAQ #contents {
+        width: 100%;
+    }
+    .myFAQ #intro{
+        width: 100%;
+        height: auto;
+    }
+    .myFAQ #intro img {
+        max-width: 100%;
+    }
+    .myFAQ .ss-form-entry > div >img {
+        margin: 0 170px;
+    }
+    .myFAQ div #headerSns {
+        position: relative;
+        left: 66%;
+        top: 0px;
+    }
+    .myFAQ #ending {
+        width: 280px;
+    }
+    .myFAQ div #ending p {
+        font-size: 9px;
+        margin: 10px 30px;
+    }
+    /*=================================================== Inquiry Page ================================================================*/
+    
+    .myQuery div#container{
+    	width: 500px;
+    }
+    .myQuery div#wrapper{
+		width: 100%;
+		margin:0 auto;
+    }
+    .myQuery #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myQuery .ss-form-entry {
+        padding: 5px;
+    }
+    .myQuery div#headerSns {
+       top: 0px;
+       left: 70%;
+       position: relative;
+    }
+    .myQuery div .contact div.line {
+        width: 55%;
+    }
+    .myQuery .ss-form {
+        width: 450px;
+    }
+    .myQuery .ss-form-container {
+        padding: 2px;
+    }
+    .myQuery .ss-q-long {
+        width: 90%;
+    }
+    /*=================================================== Buy Page ================================================================*/
+    
+    .myBuy div#container {
+        width: 550px;       
+    }
+    .myBuy #intro{
+        width: 100%;
+        height: auto;
+    }
+    .myBuy #wrapper{
+        width: 100%;
+    }
+    .myBuy #intro img {
+        max-width: 100%;
+    }
+    .myBuy div #headerSns {
+        position: relative;
+        left:72%; 
+        top:0px;
+    }
+    .myBuy div #contents.singleColumn > div.buy div.site div.ticket {
+        width: 99%;
+    }
+    .myBuy div #contents.singleColumn > div.buy div.site div.ticket img {
+        max-width: 100%;
+    }
+    .myBuy div #contents.singleColumn > div.buy > h1 {
+        background-position: -100px 0px;
+    }
+    .myBuy div.buy div.site caption {
+        padding-left: 150px;
+        text-align: left;
+    }
+    .myBuy div #contents.singleColumn > div.buy div.site .buyTable {
+        overflow-x: scroll;
+    }
+    .myBuy div #contents div.buy div.site table {
+        width: 1000px;
+    }
+    .myBuy div.buy ul.note {
+        text-align: justify;
+    }
+    /*========================== Program Page ==========================================*/
+    
+    .myPlan div #program div.selecterContent ul {
+        width: 100%;
+    }
+    .myPlan div #program div.selecterContent ul .c_name img {
+        max-width: 100%;
+        height: auto;
+    }     
+    .myPlan div #program div.selecterContent ul .tk1,
+    .myPlan div #program div.selecterContent ul .tk2 {
+       width: 98%;
+       /* margin-left: 35px;*/
+    }
+}
+@media screen and (max-width: 480px) {
+    /* =============================================== ( Top Page )===============================================*/
+    
+    .myOtona div#container {
+        width: 450px;
+        margin: 0 auto;
+    }
+    .myOtona div#smartphone_menu_container a img {
+        float: left;
+        margin-left: 5px;
+    }
+    .myOtona #wrapper {
+        width: 100%;
+        margin:0 auto;                    
+    }
+    .myOtona div #headerSns {
+        position: relative;
+        left: 64%;
+        top: 0px;
+    }
+    .myOtona .btn-o {
+        width: 45px;
+    }
+    .myOtona #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myOtona #intro img {
+        max-width: 100%;
+        height: auto;
+    }
+    .myOtona .pikachoose {
+        width: 100%;
+        height: auto;
+    }
+    .myOtona .pikachoose > .pika-stage {
+        width: 100%;
+        height: auto !important;
+        margin-bottom: 3%;
+    }
+    .myOtona .jcarousel-skin-pika {
+        width: 100%;
+    }
+    .myOtona .jcarousel-skin-pika .jcarousel-container-horizontal {
+        margin: 0px 43px;
+    }
+    .myOtona .pika-textnav a.previous {
+        top: 10px;
+    }
+    .myOtona .pika-textnav a.next {
+        left: 48.5%;
+        top: 10px;
+    }
+    .myOtona .pika-stage img {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .myOtona #topMaincol {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myOtona #topMaincol span{
+        right: 20px;
+    }
+    .myOtona #topMaincol h2 {
+        width: 100%;
+        margin-bottom: 25px;
+        font-size: 11px;
+    }
+    .myOtona #topRecommend .rcmTxt {
+        width: 100%;
+        position: absolute;
+        margin: 0 auto;
+    }
+    .myOtona #topRecommend .rcmTxt h3 {
+        position: relative;
+        top: 135px        
+    }
+    
+    .myOtona #topRecommend li.ichimai .rcmTxt b,
+    .myOtona #topRecommend li.onsenbeauty .rcmTxt b,
+    .myOtona #topRecommend li.omosirotaiken .rcmTxt b,
+    .myOtona #topRecommend li.gourmet .rcmTxt b{
+        position: relative;
+        top: 131px;
+    }
+    .myOtona #topRecommend .rcmTxt h3,
+    .myOtona #topRecommend li.ichimai .rcmTxt b{
+        padding-left: 5px;
+    }
+    .myOtona #topRecommend .rcmPic {
+       width: 100%;
+       /* margin: 0 28%;*/
+        height: 230px;
+    }
+    .myOtona #topRecommend .rcmPic a img {
+        margin-top: 40px;
+        position: relative;
+        left: 34%;
+    }
+    .myOtona #topMaincol {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myOtona #footerMenu a img {
+        max-width: 100%; 
+        padding: 0px;       
+    }
+    .myOtona div #topRecommend li{
+        margin: 0 auto;
+        width: 100%;
+        padding: 0px;
+        height: 240px;
+    }
+    div #footerMenu li {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myOtona #topRecommend li.onsenbeauty .rcmTxt {} .myOtona div #ending {
+        width: 100%;
+        background: hsl(0, 0%, 100%) url('../images/bg_color.png') no-repeat 0px 0px;
+        background-size: 100% 2%;
+        background-position: 0px 50px;
+    }
+    .myOtona div #ending p {
+       width: 100%;
+       margin:0 auto;
+       text-align: center;
+    }
+    /*====================== Recommend    =============================*/
+    
+    .myRecommend div#container {
+        width: 450px;
+        margin:0 auto;
+    }
+    .myRecommend div #wrapper {
+        width: 100%;
+        margin: 0 .3% !important;
+    }
+    .myRecommend #intro {
+        width: 100%;
+        height: 140px;
+    }
+    .myRecommend #intro img {
+        max-width: 100%;
+    }
+    .myRecommend div#headerSns {
+        right: 130px;
+    }
+    .myRecommend div .c-tabs {
+        width: 100%;
+        display: block !important;
+    }
+    .myOtona div#headerArea > img {
+        max-width: 100%;
+    }
+    .myRecommend div #otona img,
+    .myRecommend #ending {
+        width: 1005;
+    }
+    .myRecommend div #joshi img,
+    .myRecommend #ending {
+        width: 100%;
+    }    
+    /*====================== Beginner   =============================*/
+    
+    .myBegin div#container {
+        width: 89%;     
+        margin: 0 auto;
+    }
+    .myBegin div #wrapper,
+    .myBegin div #contents {
+        width: 400px;
+    }
+    .myBegin #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myBegin div #headerSns{
+    	position: relative;
+    	left: 63%;
+    }
+    .myBegin #intro img {
+        max-width: 100%;
+    }
+    .myBegin div #contents.singleColumn img {
+        width: 400px;
+    }
+    .myBegin div #wrapper > img {
+        width: 100%;
+    }
+    .myBegin div.flow div.image img {
+        width: 400px;
+    }
+    .myBegin div.flow h1 {
+        background-size: 400px;
+    }
+    .myBegin div.index ul.link {
+        width: 400px;
+        margin: 0px 62px;
+    }    
+    /*====================== Omiyage   =============================*/
+    
+    .myOmiyage div#container {
+        width: 450px;
+        margin: 0 auto;
+    }
+    .myOmiyage #wrapper {
+        width: 100%;
+        margin: 0 .3% !important;
+    }
+    .myOmiyage #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myOmiyage #intro img {
+        max-width: 100%;
+    }
+    .myOmiyage div #headerSns {
+        position: relative;
+        left: 66%;
+        top: 0px;
+    }
+    .myOmiyage #headerArea img {
+        max-width: 99%;
+    }
+    .myOmiyage #giftArea {
+        width: 100%;
+    }
+    .myOmiyage #giftArea .giftBlock {
+        overflow-x: scroll;
+        width: 100%;
+    }
+    .myOmiyage #giftArea .giftBlock table {
+        width: 1000px;
+    }    
+    /*===================================================== Detail 01 & 02 ========================================================*/
+    
+    .myDetail div#container{
+    	width: 400px;
+    	margin: 0 auto;
+    }
+    .myDetail div#wrapper{
+    	width: 100%;
+    	margin:0% 0% !important;
+    }
+    .myDetail #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myDetail div #headerSns{
+        position: relative;
+        left: 62%;
+        top: 0px;
+    }
+    .myDetail #detailContainer.detail_fix #maincol {
+        width: 100%;
+    }
+    .myDetail div #maincol h2 > img {
+        max-width: 100%;
+    }
+    .myDetail div .programInfo01 img {
+        display: inline-block;
+       margin:2% 22% !important;
+    }
+    .myDetail div .programInfo02 {
+        width: 100%;
+        background:none;
+    }
+    .myDetail div .programInfo02 img {
+        display: inline-block;
+        margin-left: 186px !important;
+    }
+    .myDetail div .programCatch {
+       width: 100%;
+    }
+    .myDetail div .programPhoto01 {
+        float: none;
+        margin:2% 22% !important;
+    }
+    .myDetail div .Info02box_inner {
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .myDetail div .programInfo02 table {
+        width: 1000px;
+    }
+    .myDetail #programList h3 {
+        text-align: center;
+    }
+    .myDetail #detailContainer #programList ol li {
+        padding: 0px;
+    }
+    .myDetail #btn_buyTicket02 {
+        background: url('../images/detail/detail_btn_02.png') no-repeat left top;
+        background-size: 100%;
+        width: 100%;
+        height: 46px !important;
+    }
+    .myDetail div #ending  {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .myDetail div #ending p{
+    	margin:0% 0% !important;
+    }
+    /*====================== Plan_Details No: 140  =============================*/       
+
+    .myPlan div#smartphone_menu_container a img {
+        float: left;
+    }
+    .myPlan #logo_and_click_icon {
+        padding-bottom: 50px;
+    }
+    .myPlan div#container {
+        width: 400px;
+        margin: 0 auto;        
+    }
+    .myPlan div #wrapper {
+        width: 100%;
+        margin: 0% auto !important;
+    }
+    .myPlan div #headerSns {        
+        position: relative; 
+        left: 60%;       
+    }
+    .myPlan div #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myPlan div #intro img {
+        max-width: 100%;
+    }
+    .myPlan div #side{       
+        width: 100%;
+        float: none;
+        position: relative;
+        background: #fff;
+        border-bottom: none;        
+    }
+    .myPlan #side div.sideIn{
+		width: 100%;
+    }
+    .myPlan #side ul,
+    .myPlan #side h2,
+    .myPlan p#sideBuyBtn img{
+    	margin: 0 22.5%;
+    }
+    .myPlan div .data {
+        max-width: 100%;
+    }
+    .myPlan div #detail {
+        float: none;
+        width: 100%;        
+    }
+    .myPlan #detail div.content {
+        width: 100%;
+        margin:0 auto;        
+    }
+    .myPlan #detail div.content div.text {      
+       width: 100%;
+    }
+    .myPlan #detail div.content div.text div.tel{
+        padding: 0px !important;
+    }
+    .myPlan #detail div.content div.text p {       
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    .myPlan #detail .buyBtn {
+       /* padding-left: 9px;*/
+    }
+    .myPlan #detail div.content div.photoM {        
+        width: 100%;
+        margin: 0 auto;
+        background: none;
+    }
+    .myPlan #detail div.content div.text div.tel{
+		margin:2% auto;
+    }
+    .myPlan #detail div.content div.simg{
+    	width: 100%;
+    }
+    .myPlan #detail div.content div.simg div.photoS {       
+        width: 100%;
+        margin: 2% auto;
+        text-align: center;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/bg_sphoto.png') no-repeat 50%;
+    }
+    .myPlan #detail div.ichimai div.category {      
+       width: 100%;
+       background-size: 100%;
+    }    
+    .myPlan div #ending p{
+    	margin:0 auto;
+    	width: 100%;
+    	text-align: center;
+    }
+    /*=================================================== Map Page ========================================*/
+    
+    .mymap div#container {
+        width: 450px;
+        margin: 0 auto;
+    }
+    .mymap div #wrapper {
+        width: 100%;
+        margin: 0 .3% !important;
+    }
+    .mymap div.map {
+        width: 450px;
+    }
+    .mymap #intro {
+        width: 100%;
+        height: auto;
+    }
+    .mymap #intro img {
+        max-width: 100%;
+    }
+    .mymap div#headerSns {
+        position: relative;
+        left: 66%;
+        top: 0px;
+    }
+    .mymap div.map h1 {
+        background-position: 0px 10px;
+        background-size: 440px;
+    }
+    .mymap div .busmap img {
+        max-width: 100%;
+    }
+    /*============================================  Sitemap page ======================================================================*/
+    
+    .mysitemap div#container {
+        width: 450px;
+        margin: 0 auto;
+    }
+    .mysitemap #wrapper {
+        width: 100%;
+    }
+    .mysitemap #headerSns {
+        right: 70px;
+    }
+    .mysitemap #intro {
+        width: 100%;
+        height: auto;
+    }
+    .mysitemap #intro img {
+        max-width: 100%;
+    }
+    .mysitemap #headerSns {
+        position: relative;
+        left: 60%;
+    }
+    .mysitemap #contents {
+        width: 100%;
+        margin:10px auto;
+    }    
+    .mysitemap #contents .column {
+        float: none;
+        width: 197px;
+        margin: 0 40px;
+    }
+    /*============================================  Qanda page ======================================================================*/
+        
+    .myqanda div#container {
+        width: 430px;
+        margin:0 auto;
+    }    
+    .myqanda #wrapper {
+        width: 100%;
+        margin: 0 .3% !important;
+    }
+    .myqanda #qanda {
+        width: 100%;
+        text-align: justify;
+    }
+    .myqanda div #headerSns {
+        position: relative;
+        left: 64%;
+        top: 0px;
+    }
+    .myqanda #intro {
+        width: 100%;
+        height: auto;       
+    }
+    .myqanda #intro img {
+        max-width: 100%;        
+    }
+    .myqanda #qanda .question,
+    .myqanda #qanda .answer{
+        width: 85%;
+    }
+    /*=================================================== Privacy Page ================================================================*/
+    .myprivacy div#container{    	
+		width  : 450px;
+		margin : 0 auto;    	
+    }
+    .myprivacy div#wrapper{
+    	width: 100%;
+    }
+    .myprivacy #intro{
+        width: 100%;
+        height: auto;
+    }
+    .myprivacy  div #headerSns{
+        position: relative;
+        left: 35%;
+        top:0px;
+    }
+    .myprivacy #side{
+    	background : #fff;
+    }
+    .myprivacy #side div.sideIn,
+    .myprivacy #side h2,
+    .myprivacy p#sideBuyBtn a img{
+    	margin:0 24%;
+    }
+    .myprivacy #contents{
+        width: 100%;
+        margin:0 auto;
+    }
+    .myprivacy #side div.sideIn{
+    	width: 100%;
+    }
+    .myprivacy #side{
+    	width  : 100%;
+    	border : none;
+    }
+    .myprivacy div.privacy h1{
+    	width           : 100%;
+    	background-size : 100%;
+    }        
+    /*=================================================== Enquete Page ================================================================*/
+    
+    .myFAQ div#container {
+        width: 450px;
+        margin:0 auto;
+    }
+    .myFAQ #wrapper{
+    	width: 100%;
+    	margin:0 0.3% !important;
+    }
+    .myFAQ #intro{
+        width: 100%;
+        height: auto;
+    }
+    .myFAQ #contents {
+        width: 100%;
+    }
+    .myFAQ #intro img {
+        max-width: 100%;
+    }
+    .myFAQ .ss-form-entry > div >img {
+        margin: 0 140px;
+    }
+    .myFAQ div #headerSns {
+        position: relative;
+        left: 66%;
+        top: 0px;
+    }
+    
+    /*=================================================== Inquiry Page ================================================================*/
+    
+    .myQuery div#container{
+    	width: 450px;
+    	margin:0 auto;
+    }
+    .myQuery div#wrapper{
+		width: 100%;
+		margin: 0 .3%!important;
+    }
+    .myQuery #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myQuery div#intro img {
+        max-width: 100%;
+    }
+    .myQuery .ss-form-entry {
+        padding: 5px;
+    }
+    .myQuery div#headerSns {
+        position: relative;
+        left: 66%;
+        top:0px;
+    }
+    .myQuery div .contact div.line {
+        width: 49%;
+    }
+    .myQuery .ss-form {
+        width: 400px;
+    }
+    .myQuery .ss-form-container {               
+        padding: 6px;
+    }
+    .myQuery .ss-q-long {
+        width: 90%;
+    }
+    .myQuery .ss-terms,
+    .myQuery .ss-footer {
+        width: 400px;
+    }
+    .myQuery div #ending p{
+    	margin:0 auto;
+    	text-align: center;
+    	font-size: 8pt;
+    }
+    /*=================================================== Buy Page ================================================================*/
+    
+    .myBuy div#container {
+        width: 450px;        
+        margin: 0 auto;
+    }
+    .myBuy #intro{
+        width: 100%;
+        height: auto;
+    }
+    .myBuy #wrapper{
+        width: 100%;
+        margin: 0 .3% !important;
+    }
+    .myBuy #intro img {
+        max-width: 100%;
+    }
+    .myBuy div #headerSns {
+        position: relative;
+        left: 66%;
+        top:0px;
+    }
+    .myBuy div #contents.singleColumn > div.buy div.site div.ticket {
+        width: 99%;
+    }
+    .myBuy div #contents.singleColumn > div.buy div.site div.ticket img {
+        max-width: 100%;
+    }
+    .myBuy div #contents.singleColumn > div.buy > h1 {
+        background-position: -100px 0px;
+    }
+    .myBuy div.buy div.site caption {
+        padding-left: 150px;
+        text-align: left;
+    }
+    .myBuy div #contents.singleColumn > div.buy div.site .buyTable {
+        overflow-x: scroll;
+    }
+    .myBuy div #contents div.buy div.site table {
+        width: 1000px;
+    }
+    .myBuy div.buy ul.note {
+        text-align: justify;
+    }
+    /*========================================== Program Page ==========================================================================*/
+    .myPlan div #program{
+    	margin:0 auto;
+    }
+    .myPlan div #program div.selecterBtns {
+        width: 100%;
+        /*width: 300px;*/
+    }
+    .myPlan div #program div.selecterContent ul {
+        width: 100%;
+        /*width: 300px !important;*/
+    }
+    .myPlan #program div.ttl h1 {
+        width: 180px;
+    }
+    .myPlan #program div.selecterContent ul li .photo {
+        width: 100%;
+        /*float: none;
+        text-align: center;*/
+    }
+    .myPlan #program div.selecterContent ul li.c_name {
+        width: 100%;
+    }
+    .myPlan div #program div.selecterContent ul .c_name img {
+        max-width: 100%;
+    }
+    .myPlan div #program div.selecterContent ul li .title,
+    #program div.selecterContent ul li .subtitle {
+        font-size: 11px;
+        text-align: center;
+        padding: 0px 10px;
+    }
+    .myPlan #program div.selecterContent ul li .hostname {
+        bottom: 38px;
+    }
+    .myPlan #program div.selecterContent ul li .address {
+        bottom: 20px;
+    }
+    .myPlan #program div.selecterContent ul li .numTicket {
+        /*left: 80px;*/
+        bottom: 20px;
+    }    
+    .myPlan div #program div.selecterContent ul .tk1,
+    .myPlan div #program div.selecterContent ul .tk2 {
+        width: 98%;
+    }
+    .myPlan div #program div.ticket {
+        height: 155px;
+    }
+    .myPlan #program div.ticket h2 {
+        position: relative;
+        left: 35%;
+    }
+    .myPlan #program div.ticket ul {
+    	width: 100%;
+        height: 133px;
+    }
+    .myPlan #program div.category ul.ticket-2500 {
+        height: 200px;
+    }
+    .myPlan #program div.ticket ul li.btnTk1,
+    #program div.ticket ul li.btnTk2 {
+        width: 100%;
+        position: relative;
+        left: 40%;
+    }
+    .myPlan #program div.ticket ul li.text {
+        position: relative;
+        left: 15%;
+    }
+    .myPlan #program div.category h2 {
+    	 position: relative;
+        left: 40%;        
+    }
+    .myPlan #program div.category ul.ticket-2500 {
+        width: 300px;
+        height: 203px;
+    }
+    .myPlan #program div.selecterContent ul li .detail {
+        width: 100%;
+        font-size: 10px;
+        /*margin: 15px 0px 0px 20px;*/
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnIchimai {
+       /* margin: 0px 90px;*/
+        width: 200px;
+        background-size: 161px;
+        position: relative;
+        left: 30%;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnIchimai a {
+        width: 164px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_04.jpg') no-repeat 0px 0px;
+        background-size: 161px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnIchimai a.active {
+        width: 200px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_04_ov.jpg') no-repeat 0px 0px;
+        background-size: 162px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnOmosirotaiken {
+        position: relative;
+        left: 30%;
+        top:0px;
+        clear: both;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnGourmet {
+        width: 200px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_01.jpg') no-repeat 0px 0px;
+        position: relative;
+        left: 30%;
+        top: 4px;
+        clear: both;
+        margin-bottom: 5px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnGourmet a {
+        width: 200px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_01.jpg') no-repeat 0px 0px;
+        background-size: 163px 40px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnGourmet a.active {
+        width: 200px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_01_ov.jpg') no-repeat 0px 0px;
+        background-size: 163px 40px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnOnsenbeauty {
+        width: 163px;
+        position: relative;
+        clear: both;
+        left: 30%;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_02_ov.jpg') no-repeat 0px 0px;
+        background-size: 162px;
+        margin-top: 2px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnDazaifu {
+        position: relative;
+        width: 200px;
+        left:30%;
+        clear: both;
+        margin-top: 3px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnDazaifu a {
+        width: 164px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_05.png') no-repeat 0px 0px;
+        background-size: 164px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnDazaifu a.active {
+        width: 164px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_05_ov.png') no-repeat 0px 0px;
+        background-size: 164px;
+    }
+}
+@media screen and (max-width: 375px) {
+    /* =============================================== ( Top Page )===============================================*/
+    
+    .myOtona div#container {
+        width: 350px;
+        margin: 0 auto;
+    }
+    .myOtona div#smartphone_menu_container a img {
+        float: left;
+        margin-left: 5px;
+    }
+    .myOtona #wrapper {
+        width: 100%;
+        /*margin: 0 3% !important;*/
+    }
+    .myOtona div #headerSns {
+        position: relative;
+        left: 30%;
+    }
+    .myOtona .btn-o {
+        width: 45px;
+    }
+    .myOtona #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myOtona #intro img {
+        max-width: 100%;
+        height: auto;
+    }
+    .myOtona .pikachoose {
+        width: 100%;
+        height: auto;
+    }
+    .myOtona .pikachoose > .pika-stage {
+        width: 100%;
+        height: auto !important;
+        margin-bottom: 3%;
+    }
+    .myOtona .jcarousel-skin-pika {
+        width: 100%;
+    }
+    .myOtona .jcarousel-skin-pika .jcarousel-container-horizontal {
+        margin: 0px 43px;
+    }
+    .myOtona .pika-textnav a.next {
+        left: 320px;
+    }
+    .myOtona .pika-stage img {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .myOtona #topMaincol {
+        width: 100%;
+        margin:0 auto;
+    }
+    .myOtona #topMaincol h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 11px;
+        padding: 0px;
+    }
+    .myOtona #topMaincol span {
+        top: 30px;
+    }
+    .myOtona #topRecommend .rcmTxt {
+        width: 99%;
+        margin: 0 auto;
+        background-size: 100%;
+        padding: 22px 5px;
+    }
+    .myOtona #topRecommend .rcmTxt h3 {
+        font-size: 100%;
+        padding: 5px;
+    }
+    .myOtona #topRecommend .rcmPic {
+        width: 100%;
+    }
+    .myOtona #topRecommend .rcmPic a img{
+        position: relative;
+        left: 27%;
+    }
+    .myOtona #topMaincol {
+        width: 100%;
+        margin:0 auto;
+    }
+    .myOtona #topRecommend .rcmTxt b {
+        font-size: 100%;
+        padding: 5px
+    }
+    .myOtona #footerMenu a img {
+        max-width: 100%;        
+    }
+    .myOtona div #topRecommend li{
+        width: 99%;
+        margin:0 auto;
+        padding: 0px;
+        float: none;
+    }
+    div #footerMenu li {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myOtona #topRecommend li.onsenbeauty .rcmTxt {} .myOtona div #ending {
+        width: 100%;
+        background: hsl(0, 0%, 100%) url('../images/bg_color.png') no-repeat 0px 0px;
+        background-size: 100% 2%;
+        background-position: 0px 50px;
+    }
+    .myOtona div #ending p {
+        margin:0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    /*====================== Recommend    =============================*/
+    
+    .myRecommend div#container {
+        width: 350px;
+        margin: 0 auto
+    }
+    .myRecommend div #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myRecommend #intro {
+        width: 100%;
+        height: 140px;
+    }
+    .myRecommend #intro img {
+        max-width: 100%;
+    }
+    .myRecommend div#headerSns {
+        right: 70px;
+    }
+    .myRecommend div #otona img,
+    .myRecommend #ending {
+        width: 100%;
+    }
+    .myRecommend div #joshi img,
+    .myRecommend #ending {
+        width: 1005;
+    }
+    
+    .myRecommend div #headerarea img {
+        width: 280px!important;
+    }
+    .myOtona div #headerarea img {
+        width: 280px!important;
+    }
+    
+    
+    .myRecommend div li.c-tab.is-selected,
+    li.c-tab {
+        width: 100%;
+        margin: 0;
+        display: block;
+    }
+    .myRecommend a.c-tab__target > img {
+        width: 280px;
+        height: 100px;
+        margin: -60px 0;
+    }
+    /*====================== Beginner   =============================*/
+    
+    .myBegin div#container {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .myBegin div #wrapper,
+    .myBegin div #contents {
+        width: 300px;
+    }
+    .myBegin #intro {
+        width: 100%;
+        height: auto;
+    }
+     .myBegin div #headerSns{
+    	position: relative;
+    	left: 30%;
+    	top:0px;
+    }
+    .myBegin #intro img {
+        max-width: 100%;
+    }    
+    .myBegin div #contents.singleColumn img {
+        width: 300px;
+    }
+    .myBegin div #wrapper > img {
+        width: 300px;
+    }
+    .myBegin div.flow div.image img {
+        width: 300px;
+    }
+    .myBegin div.flow h1 {
+        background-position: -100px 5px;
+        background-size: 500px;
+    }
+    .myBegin div.index ul.link {
+        width: 300px;
+        margin: 0;
+    }
+    .myBegin div #ending p {
+        margin: 0 auto;
+        text-align: center;
+    }
+    /*====================== Omiyage   =============================*/
+    
+    .myOmiyage div#container {
+        width: 350px;
+        margin: 0 auto;
+    }
+    .myOmiyage #wrapper {
+        width: 100%;
+        margin: 0 .3% !important;
+    }
+    .myOmiyage #intro {
+        width: 1005;
+        height: auto;
+    }
+    .myOmiyage #intro img {
+        max-width: 100%;
+    }
+    .myOmiyage div #headerSns {
+        position: relative;
+        left: 30%;
+    }
+    .myOmiyage #headerArea > img {
+        max-width: 99% !important;
+    }
+    .myOmiyage #giftArea {
+        width: 100%;
+    }
+    .myOmiyage #giftArea .giftBlock {
+        overflow-x: scroll;
+        width: 100%;
+    }
+    .myOmiyage #giftArea .giftBlock table {
+        width: 1000px;
+    }    
+    /*===================================================== Detail 01 & 02 ========================================================*/
+    
+    .myDetail div#container {
+        width: 350px;
+        margin:0 auto;
+    }
+    .myDetail #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myDetail #intro {
+        width: 100%;
+    }
+    .myDetail #intro img {
+        max-width: 100%;
+    }
+    .myDetail div#headerSns {
+        right: 70px;
+    }
+    #detailContainer.detail_fix #maincol {
+        width: 100%;
+    }
+    .myDetail div #maincol h2 > img {
+        max-width: 100%;
+    }
+    .myDetail #detailContainer #programList h3 {
+        padding: 0;
+        font-size: 11px;
+    }
+    .myDetail div .programInfo01 img {
+        max-width: 100%;
+        margin: 0 62px !important;
+    }
+    .myDetail #program01 >img {
+        margin: 0 62px !important;
+    }
+    .myDetail #program03 >img {
+        margin: 0 62px !important;
+        padding: 0;
+    }
+    .myDetail #program04 >img {
+        margin: 0 62px !important;
+        padding: 0;
+    }
+    .myDetail div .programCatch {
+        margin: 0;
+    }
+    .myDetail .programCatch {
+        width: 100%;
+    }
+    .myDetail div .Info02box_inner {
+        width: 300px;
+        overflow-x: scroll;
+    }
+    .myDetail div .programInfo02 table {
+        width: 1000px;
+    }
+    /*.myDetail #btn_buyTicket02 {
+        width: 300px !important;
+        border-radius: 10px 10px;
+    }*/
+    .myDetail #wrapper > p {
+        text-align: left !important;
+        font-size: 10px;
+    }
+    .myDetail #wrapper > #btn_buyTicket02 {
+        width: 100%;
+        background-size: 96%;        
+        height: 50px;
+        background-position: 0 9px;
+    }
+    .myDetail #wrapper > p {
+        margin-left: 0px;
+    }    
+    .myPlan div#smartphone_menu_container a img {
+        float: left;
+    }
+    .myPlan #logo_and_click_icon {
+        padding-bottom: 50px;
+    }
+    .myPlan div#container {
+        width: 350px;
+        margin: 0 auto;
+        border: none;
+    }    
+    /*.myPlan div #headerSns {
+        left: 55%;
+        position: relative;
+    }*/
+    .myPlan div #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myPlan div #intro img {
+        max-width: 100%;
+    }
+    .myPlan div #side{
+       /* margin: 0 -400px;
+        float: left;*/
+        width: 100%;
+        float: none;
+        position: relative;
+        background: #fff;
+        border-bottom: none;        
+    }
+    .myPlan #side div.sideIn{
+		width: 100%;
+    }
+    .myPlan #side ul,
+    .myPlan #side h2,
+    .myPlan p#sideBuyBtn img{
+    	margin: 0 17%;
+    }
+    .myPlan div .data {
+        max-width: 100%;
+    }
+    .myPlan div #detail {
+        float: none;
+        width: 100%;        
+    }
+    .myPlan #detail div.content {
+        width: 100%;
+        margin:0 auto;       
+    }
+    .myPlan #detail div.content div.text {      
+       width: 100%;
+    }
+    .myPlan #detail div.content div.text p {        
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    .myPlan #detail .buyBtn {
+       /* padding-left: 9px;*/
+    }
+    .myPlan #detail div.content div.photoM {        
+        width: 100%;
+        margin: 0 auto;
+        background: none;
+    }
+    .myPlan #detail div.content div.text div.tel{
+		margin:2% auto;
+    }
+    .myPlan #detail div.content div.simg{
+    	width: 100%;
+    }
+    .myPlan #detail div.content div.simg div.photoS {       
+        width: 100%;
+        margin: 2% auto;
+        text-align: center;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/bg_sphoto.png') no-repeat 50%;
+    }
+    .myPlan #detail div.ichimai div.category {       
+       width: 100%;
+       background-size: 100%;
+    } 
+    .myPlan #detail div.title h1{
+        font-size: 12px;
+    }
+    .myPlan div #ending p{
+    	margin:0 auto;
+    	width: 100%;
+    	text-align: center;
+    }
+    /*=================================================== Map Page ========================================*/
+    
+    .mymap div#container {
+        width: 350px;
+        margin: 0 auto;
+    }
+    .mymap #wrapper {
+        width: 330px;
+    }
+    .mymap #intro{
+        width: 1005;
+        height: auto;
+    }
+    .mymap div.map {
+        width: 350px;
+    }
+    .mymap #intro img {
+        max-width: 100%;
+    }
+    .mymap div#headerSns {
+        position: relative;
+        left: 30%;
+        top: 0px;
+    }
+    .mymap div.map h1 {
+        background-position: 0px 10px;
+        background-size: 335px;
+    }
+    .mymap div .busmap img {
+        max-width: 88%;
+    }
+    .mymap div#ending {
+        width: 350px;
+    }
+    
+    /*============================================  Sitemap page ======================================================================*/
+    
+    .mysitemap div#container {
+        width: 350px;
+        margin: 0 auto;
+    }
+    .mysitemap #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .mysitemap #headerSns {
+        position: relative;
+        left: 30%
+    }
+    .mysitemap #intro {
+        width: 100%;
+        height: auto;
+    }
+    .mysitemap #intro img {
+        max-width: 100%;        
+    }
+    .mysitemap #headerSns {
+        right: 100px;
+        top: 110px;
+    }
+    .mysitemap #contents {
+        width: 350px
+    }
+    .mysitemap #contents h2 {        
+        padding-left: 15px;
+    }
+    .mysitemap #contents .column {
+        float: none;
+        width: 197px;
+        margin: 0;
+    }
+    /*============================================  Qanda page ======================================================================*/
+        
+    .myqanda div#container {
+        width: 350px;
+        margin: 0 auto;
+    }
+    .myqanda #wrapper {
+        width: 100%;
+        margin: 0 .3% !important;
+    }
+    .myqanda #qanda {
+        width: 100%;
+        text-align: justify;
+    }
+    .myqanda div #headerSns {
+        position: relative;
+        left: 30%;        
+    }
+    .myqanda #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myqanda #intro img {
+        max-width: 100%;        
+    }
+    .myqanda #qanda .question {
+        width: 80%;
+        background: url(../images/qanda/ico_q.png) 5px 0 no-repeat;
+    }
+    .myqanda #qanda .answer {
+        width: 80%;
+        background: url(../images/qanda/ico_a.png) 5px 0 no-repeat;
+    }
+    /*=================================================== Privacy Page ================================================================*/
+    .myprivacy div#container{    	
+		width  : 350px;
+		margin : 0 auto;    	
+    }
+    .myprivacy div#wrapper{
+    	width: 100%;
+    }
+    .myprivacy #intro{
+        width: 100%;
+        height: auto;
+    }
+    .myprivacy  div #headerSns{
+        position: relative;
+        left: 30%;
+        top:0px;
+    }
+    .myprivacy #side{
+    	background : #fff;
+    }
+    .myprivacy #side div.sideIn,
+    .myprivacy #side h2,
+    .myprivacy p#sideBuyBtn a img{
+    	margin:0 17%;
+    }
+    .myprivacy #contents,
+    .myprivacy #side div.sideIn{
+    	width: 100%;
+    }
+    .myprivacy #side{
+    	width  : 100%;
+    	border : none;
+    }
+    .myprivacy div.privacy h1{
+    	width           : 100%;
+    	background-size : 100%;
+    }        
+    /*=================================================== Enquete Page ================================================================*/
+    
+    .myFAQ div#container {
+        width: 350px;
+        margin:0 auto;
+    }
+    .myFAQ #wrapper{
+    	width: 100%;
+    	margin:0 .3% !important;
+    }    
+    .myFAQ #intro{
+        width: 100%;
+        height: auto;
+    }
+    .myFAQ #contents {
+        width: 100%;
+    }
+    .myFAQ #intro img {
+        width: 100%;
+    }
+    .myFAQ .ss-form-entry > div >img {
+        margin: 0 28%;
+    }
+    .myFAQ div #headerSns {
+       position: relative;
+       left: 30%;
+    }
+    /*=================================================== Inquiry Page ================================================================*/
+    
+    .myQuery div#container {
+        width: 350px;
+        margin:0 auto;
+    }
+    .myQuery #wrapper {
+        width: 100%;
+        margin:0 .3% !important;
+    }
+    .myQuery #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myQuery #intro img {
+        max-width: 100%;
+    }
+    .myQuery div#contents {
+        width: 300px !important;
+    }
+    .myQuery .ss-form-entry {
+        padding: 5px;
+    }
+    .myQuery div#headerSns {
+        position: relative;
+        left: 30%;
+    }
+    .myQuery div .contact div.line {
+        width: 95%;
+    }
+    .myQuery .ss-form {
+        width: 100%;
+    }
+    .myQuery div #ending p{
+    	margin: 0 auto;
+    	text-align: center;
+    	font-size: 8pt;
+    }
+    /*=================================================== Buy Page ================================================================*/
+    
+    .myBuy div#container {
+        width: 350px;
+        margin:0 auto;        
+    }
+    .myBuy #intro{
+        width: 100%;
+        height: auto;
+    }
+    .myBuy #wrapper{
+        width: 100%;
+        margin:0 .3% !important;
+    }
+    .myBuy #intro img {
+        max-width: 100%;
+    }    
+    .myBuy div #headerSns {
+        position: relative;
+        left: 57%;
+        top: 0px;
+    }
+    .myBuy div.buy div.site p.step1{
+    	background-size: 100%;
+    }
+    .myBuy div #contents.singleColumn > div.buy div.site div.ticket {
+        width: 99%;
+    }
+    .myBuy div #contents.singleColumn > div.buy div.site div.ticket img {
+        max-width: 100%;
+    }
+    .myBuy div #contents.singleColumn > div.buy > h1 {
+        background-position: -150px 0px;
+    }
+    .myBuy div.buy div.site caption {
+        padding-left: 150px;
+        text-align: left;
+    }
+    .myBuy div #contents.singleColumn > div.buy div.site .buyTable {
+        overflow-x: scroll;
+    }
+    .myBuy div #contents div.buy div.site table {
+        width: 1000px;
+    }
+    .myBuy div.buy ul.note {
+        text-align: justify;
+        padding: 5px;
+    }
+    /*========================================== Program Page ==========================================================================*/
+    
+    .myPlan div #program div.selecterBtns {
+        width: 100%;
+    }
+    .myPlan div #program div.selecterContent ul {
+        width: 100%;
+    }
+    .myPlan #program div.ttl h1 {
+        width: 180px;
+    }
+    .myPlan #program div.selecterContent ul li .photo {
+       
+        float: none;
+        text-align: center;
+    }
+    .myPlan #program div.selecterContent ul li.c_name {
+        width: 100%;
+    }
+    .myPlan div #program div.selecterContent ul li .title,
+    #program div.selecterContent ul li .subtitle {
+        font-size: 11px;
+        text-align: center;
+    }
+    .myPlan #program div.selecterContent ul li .hostname {
+        bottom: 38px;
+    }
+    .myPlan #program div.selecterContent ul li .address {
+        bottom: 20px;
+    }
+    .myPlan #program div.selecterContent ul li .numTicket {
+       /* left: 80px;*/
+        bottom: 20px;
+    }
+    .myPlan div #program div.selecterContent ul .tk1 {
+        margin: 0 auto;
+    }
+    .myPlan div #program div.selecterContent ul .tk2 {
+        margin: 0 auto;
+    }
+    .myPlan div #program div.ticket {
+        height: 155px;
+        width: 100%;
+    }
+    .myPlan #program div.ticket h2 {
+        
+    }
+    .myPlan #program div.ticket ul {
+        height: 133px;
+        width: 100%;
+    }
+    .myPlan #program div.category ul.ticket-2500 {
+        height: 200px;
+    }
+    .myPlan #program div.ticket ul li.btnTk1,
+    #program div.ticket ul li.btnTk2 {
+        width: 100%;
+       
+    }
+    .myPlan #program div.ticket ul li.text {
+       
+    }
+    .myPlan #program div.category h2 {
+        
+    }
+    .myPlan #program div.category ul.ticket-2500 {
+        width: 300px;
+        height: 203px;
+    }
+    .myPlan #program div.selecterContent ul li .detail {
+        width: 250px;
+        font-size: 10px;
+        margin: 15px 0px 0px 20px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnIchimai {
+        /*margin: 0px 90px;*/
+        width: 200px;
+        background-size: 161px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnIchimai a {
+        width: 164px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_04.jpg') no-repeat 0px 0px;
+        background-size: 161px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnIchimai a.active {
+        width: 200px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_04_ov.jpg') no-repeat 0px 0px;
+        background-size: 162px;
+    }
+    #program div.category ul.ticket-2500 li.btnOmosirotaiken {
+        
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnGourmet {
+        width: 200px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_01.jpg') no-repeat 0px 0px;        
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnGourmet a {
+        width: 200px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_01.jpg') no-repeat 0px 0px;
+        background-size: 163px 40px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnGourmet a.active {
+        width: 200px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_01_ov.jpg') no-repeat 0px 0px;
+        background-size: 163px 40px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnOnsenbeauty {
+        width: 163px;       
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_02_ov.jpg') no-repeat 0px 0px;
+        background-size: 162px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnDazaifu {        
+        width: 200px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnDazaifu a {
+        width: 164px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_05.png') no-repeat 0px 0px;
+        background-size: 164px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnDazaifu a.active {
+        width: 164px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_05_ov.png') no-repeat 0px 0px;
+        background-size: 164px;
+    }
+}
+@media screen and (max-width: 320px) {
+    /* =============================================== ( Top Page )===============================================*/
+    
+    .myOtona div#container {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .myOtona div#smartphone_menu_container a img {
+        float: left;
+        margin-left: 5px;
+    }
+    .myOtona #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .myOtona .btn-o {
+        width: 45px;
+    }
+    .myOtona #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myOtona #intro img {
+        max-width: 100%;
+        height: auto;
+    }
+    .myOtona .pikachoose {
+        width: 100%;
+        height: auto;
+    }
+    .myOtona .pikachoose > .pika-stage {
+        width: 100%;
+        height: auto !important;
+        margin-bottom: 3%;
+    }
+    .myOtona .jcarousel-skin-pika {
+        width: 100%;
+    }
+    .myOtona .jcarousel-skin-pika .jcarousel-container-horizontal {
+        margin: 0px 43px;
+    }
+    .myOtona .pika-textnav a.next {
+        left: 31%;
+    }
+    .myOtona .pika-stage img {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .myOtona #topMaincol {
+        width: 100%;
+        margin:0 auto;
+    }
+    .myOtona #topMaincol h2 {
+        width: 100%;
+        margin-bottom: 25px;
+        font-size: 11px;
+    }
+    .myOtona #topMaincol span {
+        top: 30px;
+    }
+    .myOtona #topRecommend .rcmTxt {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myOtona #topRecommend .rcmTxt h3 {
+        font-size: 100%;
+    }
+    .myOtona #topRecommend .rcmPic {
+        width: 100%;
+        margin:0 auto;
+    }
+    .myOtona #topMaincol {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myOtona #topRecommend .rcmTxt b {
+        font-size: 100%;
+    }
+    .myOtona #footerMenu a img {
+        max-width: 100%;        
+    }
+    .myOtona div #topRecommend li{
+        width: 100%;
+        margin:0 auto;
+        padding: 0px;
+    }
+    div #footerMenu li {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myOtona #topRecommend li.onsenbeauty .rcmTxt {} .myOtona div #ending {
+        width: 100%;
+        background: hsl(0, 0%, 100%) url('../images/bg_color.png') no-repeat 0px 0px;
+        background-size: 100% 2%;
+        background-position: 0px 50px;
+    }
+   
+    /*============================= qanda ==============================*/
+    .myqanda div#container {
+        width: 97%;
+        margin:0 auto;
+    }
+    .myqanda #wrapper {
+        width: 100%;
+        margin: 0 .3%!important;
+    }
+    .myqanda #contents.singleColumn {
+        width: 100%;
+    }    
+    .myqanda #intro {
+        width: 100%;
+        height: auto;       
+    }
+    .myqanda #intro img {
+        max-width: 100%;        
+    }
+    .myqanda #qanda {
+        width: 100%;
+        text-align: justify;
+    }
+    .myqanda #qanda .question {
+        width: 80%;
+        background: url(../images/qanda/ico_q.png) 5px 0 no-repeat;
+    }
+    .myqanda #qanda .answer {
+        width: 80%;
+        background: url(../images/qanda/ico_a.png) 5px 0 no-repeat;
+    }
+
+    /*====================== Recommend    =============================*/
+    
+    .myRecommend div#container {
+        width: 97%;
+        margin: 0 auto;
+    }
+    .myRecommend div #wrapper {
+        width: 100%;
+        margin: 0 .3% !important;
+    }
+    .myRecommend #intro {
+        width: 100%;
+        height: 100px;
+    }
+    .myRecommend #intro img {
+        max-width: 100%;
+    }
+    .myRecommend div#headerSns {
+        right: 70px;
+        top: 65px;
+    }
+    .myRecommend div #otona img,
+    .myRecommend div #joshi img {
+        width: 99%;
+    }
+    .myRecommend div li.c-tab.is-selected,
+    li.c-tab {
+        width: 1005;
+    }    
+    .myRecommend div #headerarea img {
+        width: 280px!important;
+    }
+    /*====================== Beginner   =============================*/
+    
+    .myBegin div#container {
+        width: 97%;
+        margin: 0 auto;
+    }
+    .myBegin div #wrapper {
+        width: 300px;
+        margin: 0 2% !important;
+    }
+    .myBegin div #contents {
+        width: 300px;
+    }
+    .myBegin #intro {
+        width: 300px;
+        height: auto;
+    }
+    .myBegin #intro img {
+        max-width: 100%;
+    }
+    .myBegin div#headerSns {
+        right: 80px;
+    }
+    .myBegin div #contents.singleColumn img {
+        width: 300px;
+    }
+    .myBegin div #wrapper > img {
+        width: 300px;
+    }
+    .myBegin div.flow div.image img {
+        width: 300px;
+    }
+    .myBegin div.flow h1 {
+        background-position: -100px 5px;
+        background-size: 500px;
+    }
+    .myBegin div.index ul.link {
+        width: 300px;
+        margin: 0;
+    }
+    /*=================================================== Map Page ========================================*/
+    
+    .mymap div#container {
+        width: 97%;
+        margin: 0 auto;
+    }
+    .mymap #intro{
+        width: 100%;
+        height: auto;
+    }
+    .mymap div #headerSns{
+        position: relative;
+        left: 30%;
+        top: 0px;
+    }
+    .mymap div.map {
+        width: 100%;
+    }
+    .mymap div.map h1 {
+        background-position: 0px 16px;
+        background-size: 270px;
+    }
+    .mymap div .busmap img {
+        max-width: 100%;
+    }
+    /*============================================  Sitemap page ======================================================================*/
+    
+    .mysitemap div#container {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .mysitemap #wrapper {
+        width: 100%;
+    }    
+    .mysitemap #intro {
+        width: 100%;
+        height: auto;
+    }
+    .mymap div #headerSns{
+        position: relative;
+        left: 30%;
+        top: 3px;
+    }
+    .mysitemap #intro img {
+        max-width: 100%;        
+    }    
+    .mysitemap #contents {
+        width: 300px;
+        margin:10px auto;
+    }    
+    .mysitemap #contents .column {
+        float: none;
+        width: 197px;
+        margin: 0;
+    }    
+    /*=================================================== Privacy Page ================================================================*/
+    .myprivacy div#container{    	
+		width  : 300px;
+		margin : 0 auto;    	
+    }
+    .myprivacy div#wrapper{
+    	width: 100%;
+    }
+    .myprivacy #intro{
+        width: 100%;
+        height: auto;
+    }
+    .myprivacy  div #headerSns{
+        position: relative;
+        left: 30%;
+        top:0px;
+    }    
+    .myprivacy #side{
+    	background : #fff;
+    }
+    .myprivacy #side div.sideIn,
+    .myprivacy #side h2,
+    .myprivacy p#sideBuyBtn a img{
+    	margin:0 12%;
+    }
+    .myprivacy #contents{
+        margin:0 auto;
+    }
+    .myprivacy #side div.sideIn{
+    	width: 100%;
+    }
+    .myprivacy #side{
+    	width  : 100%;
+    	border : none;
+    }
+    .myprivacy div.privacy h1{
+    	width           : 100%;
+    	background-size : 100%;
+    }        
+    /*=================================================== Enquete Page ================================================================*/
+    
+    .myFAQ div#container {
+        width: 97%;
+        margin:0 auto;
+    }
+    .myFAQ #wrapper{
+    	width: 100%;
+    	margin: 0 .3% !important;
+    }
+    .myFAQ #intro{
+        width: 100%;
+        height: auto;
+    }
+    .myFAQ #contents {
+        width: 100%;
+    }
+    .myFAQ #intro img {
+        max-width: 100%;
+    }
+    .myFAQ .ss-form-entry > div >img {
+        margin: 0 75px;
+    }    
+    
+    /*=================================================== Inquiry Page ================================================================*/
+    
+    .myQuery div#container{
+    	width: 300px;
+    	margin: 0 auto;
+    }
+    .myQuery #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myQuery .ss-form-entry {
+        padding: 5px;
+    }    
+    .myQuery div .contact div.line {
+        width: 95%;
+    }
+    .myQuery .ss-form {
+        width: 250px;
+    }
+    .myQuery .ss-form-container {
+        /*margin: 0 -15px;*/        
+        padding: 2px;
+    }
+    .myQuery .ss-q-long {
+        width: 90%;
+    }
+    .myQuery .ss-terms {
+        width: 250px;
+    }
+    .myQuery div #ending p {
+        margin:0 auto;
+        text-align: center;
+        font-size: 8pt;
+    }
+    /*=================================================== Buy Page ================================================================*/
+    
+    .myBuy div#container {
+        width: 97%;        
+        margin: 0 auto;
+    }
+    .myBuy div #wrapper{
+    	width: 100%;
+    	margin:0 .3% !important;
+    }
+    .myBuy #intro{       
+        width: 100%;
+        height: auto;  
+    }
+    .myBuy #intro img {
+        max-width: 100%;
+    }
+    .myBuy div #headerSns {
+        position: relative;
+        left: 50%;
+    }
+    .myBuy div #contents.singleColumn > div.buy div.site div.ticket {
+        width: 98%;
+    }
+    .myBuy div #contents.singleColumn > div.buy div.site div.ticket img {
+        max-width: 100%;
+    }
+    .myBuy div #contents.singleColumn > div.buy > h1 {
+        background-position: -150px 0px;
+    }
+    .myBuy div.buy div.site caption {
+        padding-left: 150px;
+        text-align: left;
+    }
+    .myBuy div #contents.singleColumn > div.buy div.site .buyTable {
+        overflow-x: scroll;
+    }
+    .myBuy div #contents div.buy div.site table {
+        width: 1000px;
+    }
+    .myBuy div.buy ul.note {
+        text-align: justify;
+        padding: 5px;
+    }
+    /*====================== Plan_Details No: 140  =============================*/
+    
+    .myPlan div#smartphone_menu_container a img {
+        float: left;
+    }
+    .myPlan #logo_and_click_icon {
+        padding-bottom: 50px;
+    }
+    .myPlan div#container {
+        width: 300px;
+        margin: 0 auto;
+        border: none;
+    }    
+    .myPlan div #intro {
+        width: 100%;
+        height: auto;
+    }
+    .myPlan div #intro img {
+        max-width: 100%;
+    }
+    .myPlan div #side{       
+        width: 100%;
+        float: none;
+        top:-50px;
+        position: relative;
+        background: #fff;
+        border-bottom: none;        
+    }
+    .myPlan #side div.sideIn{
+		width: 100%;
+    }
+    .myPlan #side ul,
+    .myPlan #side h2,
+    .myPlan p#sideBuyBtn img{
+    	margin: 0 13%;
+    }
+    .myPlan div .data {
+        max-width: 100%;
+    }
+    .myPlan div #detail {
+        float: none;       
+        width: 100%;        
+    }
+    .myPlan #detail div.title {
+    	height: auto;
+        width: 95%;
+    }
+    .myPlan #detail div.content {
+        width: 100%;
+        margin:0 auto;
+
+    }    
+    .myPlan #detail div.content div.text {      
+       width: 100%;
+    }
+    .myPlan #detail div.content div.text p {        
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    .myPlan #detail .buyBtn {
+       /* padding-left: 9px;*/
+    }
+    .myPlan #detail div.content div.photoM {       
+        width: 100%;
+        margin: 0 auto;
+        background: none;
+    }
+    .myPlan #detail div.content div.text div.tel{
+		margin:2% auto;
+        padding: 0px;
+    }
+    .myPlan #detail div.content div.simg{
+    	width: 100%;
+    }
+    .myPlan #detail div.content div.simg div.photoS {        
+        width: 100%;
+        margin: 2% auto;
+        text-align: center;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/bg_sphoto.png') no-repeat 50%;
+    }
+    .myPlan #detail div.ichimai div.category {       
+       width: 100%;
+       background-size: 100%;
+    }  
+    .myPlan #detail div.title h1 span{
+        width: 95%;
+        font-size: 11px;
+    }  
+    .myPlan div #ending p{
+    	margin:0 auto;
+    	width: 100%;
+    	text-align: center;
+    }
+    /*===================================================== Detail 01 & 02 ========================================================*/
+    
+    .myDetail div#container {
+        width: 300px;
+        margin:0 auto;
+    }
+    .myDetail #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .myDetail #intro {
+        width: 100%;
+    }
+    .myDetail #intro img {
+        max-width: 100%;
+    }
+    .myDetail div#headerSns {
+        right: 60px;
+    }
+    .myDetail div #detailContainer.detail_fix #maincol {
+        width: 100%;
+    }
+    .myDetail div #maincol h2 > img {
+        max-width: 100%;
+    }
+    .myDetail div .programInfo01 img {
+        max-width: 100%;
+        margin: 2px 37px !important;
+    }
+    .myDetail div #program01 >img {
+        margin: 2px 37px !important;
+    }
+    .myDetail div #program03 >img {
+        margin: 2px 37px !important;
+        padding: 0;
+    }
+    .myDetail #program04 >img {
+       margin: 2px 37px !important;
+        padding: 0;
+    }
+    .myDetail #detailContainer #programList h3 {
+        text-align: center;
+        font-size: 10px;
+        padding: 0 10px;
+    }
+    .myDetail div .programCatch {
+        margin: 0;
+    }
+    .myDetail div .Info02box_inner {
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .myDetail div .programInfo02 table {
+        width: 1000px;
+    }
+    .myDetail #wrapper > #btn_buyTicket02 {
+        width: 100%;
+        height: 32px;
+        border-radius: 10px 10px;
+        background-size: 100%;
+    }
+    .myDetail #wrapper > p {
+        margin-left: 0;
+    }
+    
+    /*====================== Omiyage   =============================*/
+    
+    .myOmiyage div#container {
+        width: 97%;
+        margin:0 auto;
+    }
+    .myOmiyage #wrapper {
+        width: 100%;
+        margin: 0 .3% !important;
+    }
+    .myOmiyage #intro {
+        width: 100%; 
+        height: auto;       
+    }
+    .myOmiyage #intro img {
+        max-width: 100%;
+    }       
+    .myOmiyage #giftArea {
+        width: 100%;
+    }
+    .myOmiyage #giftArea .giftBlock {
+        overflow-x: scroll;
+        width: 100%;
+    }
+    .myOmiyage #giftArea .giftBlock table {
+        width: 1000px;
+    }
+    
+    /*========================================== Program Page ==========================================================================*/
+    
+    .myPlan div #program div.selecterBtns {
+        width: 300px;
+    }
+    .myPlan div #program div.selecterContent ul {
+        width: 300px !important;
+    }
+    .myPlan #program div.ttl h1 {
+        width: 180px;
+    }
+    .myPlan #program div.selecterContent ul li .photo {
+        width: 300px;
+        float: none;
+        text-align: center;
+    }
+    .myPlan #program div.selecterContent ul li.c_name {
+        width: 100%;
+    }
+    .myPlan div #program div.selecterContent ul li .title,
+    #program div.selecterContent ul li .subtitle {
+        font-size: 11px;
+        text-align: center;
+    }
+    .myPlan #program div.selecterContent ul li .hostname {
+        bottom: 38px;
+    }
+    .myPlan #program div.selecterContent ul li .address {
+        bottom: 20px;
+    }
+    .myPlan #program div.selecterContent ul li .numTicket {
+        /*left: 80px;*/
+        bottom: 20px;
+    }
+    .myPlan div #program div.selecterContent ul .tk1 {
+        margin: 0;
+    }
+    .myPlan div #program div.selecterContent ul .tk2 {
+        margin: 0;
+    }
+    .myPlan div #program div.ticket {
+        height: 155px;
+    }
+    .myPlan #program div.ticket h2 {        
+		
+    }
+    .myPlan #program div.ticket ul {
+    	width: 100%;
+        height: 133px;
+    }
+    .myPlan #program div.category ul.ticket-2500 {
+        height: 200px;
+    }
+    .myPlan #program div.ticket ul li.btnTk1,
+    #program div.ticket ul li.btnTk2 {
+        width: 100%;
+        
+    }
+    .myPlan #program div.ticket ul li.text {
+        width: 100%;
+        position: relative;
+        left: 5%;
+    }
+    .myPlan #program div.category h2 {
+        position: relative;
+        left: 35%;
+    }
+    .myPlan #program div.category ul.ticket-2500 {
+        width: 300px;
+        height: 203px;
+    }
+    .myPlan #program div.selecterContent ul li .detail {
+        width: 250px;
+        font-size: 10px;
+        margin: 15px 0px 0px 20px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnIchimai {
+        /*margin: 0px 90px;*/
+        width: 200px;
+        background-size: 161px;
+        position: relative;
+        clear: both;
+        left:22%;
+
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnIchimai a {
+        width: 164px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_04.jpg') no-repeat 0px 0px;
+        background-size: 161px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnIchimai a.active {
+        width: 200px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_04_ov.jpg') no-repeat 0px 0px;
+        background-size: 162px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnOmosirotaiken {
+    	width: 200px;
+    	position: relative;
+        clear: both;
+        left:22%;
+        
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnGourmet {
+        width: 200px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_01.jpg') no-repeat 0px 0px;
+        position: relative;
+        clear: both;
+        left:22%;        
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnGourmet a {
+        width: 200px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_01.jpg') no-repeat 0px 0px;
+        background-size: 163px 40px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnGourmet a.active {
+        width: 200px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_01_ov.jpg') no-repeat 0px 0px;
+        background-size: 163px 40px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnOnsenbeauty {
+        width: 163px;        
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_02_ov.jpg') no-repeat 0px 0px;
+        background-size: 162px;
+        position: relative;
+        clear: both;
+        left:22%;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnDazaifu {        
+        width: 200px;
+        position: relative;
+        clear: both;
+        left:22%;
+        margin-top: 3px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnDazaifu a {
+        width: 164px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_05.png') no-repeat 0px 0px;
+        background-size: 164px;
+    }
+    .myPlan #program div.category ul.ticket-2500 li.btnDazaifu a.active {
+        width: 164px;
+        background: hsla(0, 0%, 0%, 0) url('../images/program/btn_cat_05_ov.png') no-repeat 0px 0px;
+        background-size: 164px;
+    }
+    .myPlan div #program div.selecterContent ul .c_name img {
+        max-width: 100%;
+        height: auto;
+    }
+}
